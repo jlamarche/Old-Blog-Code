@@ -1,0 +1,202 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Blur */ = {
+		activeExec = 0;
+		executables = (
+			1FFC461A1224058A009E7D02 /* Blur */,
+		);
+	};
+	1FFC461A1224058A009E7D02 /* Blur */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Blur;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1FFC462B12240592009E7D02 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1FFC462C12240592009E7D02 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FFC463A122406BB009E7D02 /* UIImage-Blur.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {785, 2068}}";
+			sepNavSelRange = "{3388, 0}";
+			sepNavVisRange = "{2836, 995}";
+		};
+	};
+	1FFC463B122406BB009E7D02 /* UIImage-Blur.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {785, 515}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 366}";
+		};
+	};
+	1FFC467C12240871009E7D02 /* BlurViewController.m:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* BlurViewController.m */;
+		functionName = "-blur";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = Blur;
+		modificationTime = 304351369.041188;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1FFC46B512240A58009E7D02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FFC463B122406BB009E7D02 /* UIImage-Blur.h */;
+		name = "UIImage-Blur.h: 15";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	1FFC46B612240A58009E7D02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FFC463A122406BB009E7D02 /* UIImage-Blur.m */;
+		name = "UIImage-Blur.m: 127";
+		rLen = 0;
+		rLoc = 3388;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 2836;
+	};
+	1FFC46EF12240C0E009E7D02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* BlurViewController.h */;
+		name = "BlurViewController.h: 6";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	1FFC46F512240C43009E7D02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* BlurViewController.m */;
+		name = "BlurViewController.m: 18";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 0;
+	};
+	1FFC46F812240C57009E7D02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* BlurViewController.m */;
+		name = "BlurViewController.m: 18";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 618;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* BlurViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {785, 538}}";
+			sepNavSelRange = "{130, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* BlurViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 330}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRange = "{0, 425}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FFC461A1224058A009E7D02 /* Blur */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Blur */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Blur */,
+		);
+		breakpoints = (
+			1FFC467C12240871009E7D02 /* BlurViewController.m:21 */,
+		);
+		codeSenseManager = 1FFC462C12240592009E7D02 /* Code sense */;
+		executables = (
+			1FFC461A1224058A009E7D02 /* Blur */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304350602;
+			PBXWorkspaceStateSaveDate = 304350602;
+		};
+		perUserProjectItems = {
+			1FFC46B512240A58009E7D02 /* PBXTextBookmark */ = 1FFC46B512240A58009E7D02 /* PBXTextBookmark */;
+			1FFC46B612240A58009E7D02 /* PBXTextBookmark */ = 1FFC46B612240A58009E7D02 /* PBXTextBookmark */;
+			1FFC46EF12240C0E009E7D02 /* PBXTextBookmark */ = 1FFC46EF12240C0E009E7D02 /* PBXTextBookmark */;
+			1FFC46F512240C43009E7D02 /* PBXTextBookmark */ = 1FFC46F512240C43009E7D02 /* PBXTextBookmark */;
+			1FFC46F812240C57009E7D02 /* PBXTextBookmark */ = 1FFC46F812240C57009E7D02 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FFC462B12240592009E7D02 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

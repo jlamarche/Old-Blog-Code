@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1225, 1010}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 50}, {1284, 1123}}";
+		};
+	};
+	1F1F03E210669ABF008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FC1105FEB350023D8A6 /* Texturing.h */;
+		name = "Texturing.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2795;
+		vrLoc = 0;
+	};
+	1F1F042110669CD3008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.h */;
+		name = "OpenGL_Full_ScreenAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	1F1F042310669CD3008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.m */;
+		name = "OpenGL_Full_ScreenAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	1F1F045210669E4C008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FBD105FEB2B0023D8A6 /* MainController.m */;
+		name = "MainController.m: 76";
+		rLen = 0;
+		rLoc = 3484;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 5810;
+	};
+	1F1F045310669E4C008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FBC105FEB2B0023D8A6 /* MainController.h */;
+		name = "MainController.h: 19";
+		rLen = 0;
+		rLoc = 1074;
+		rType = 0;
+		vrLen = 2868;
+		vrLoc = 128;
+	};
+	1F1F045410669E4C008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FB7105FEB160023D8A6 /* MyOpenGLView.h */;
+		name = "MyOpenGLView.h: 48";
+		rLen = 0;
+		rLoc = 2770;
+		rType = 0;
+		vrLen = 2857;
+		vrLoc = 0;
+	};
+	1F1F045810669E71008E73B7 /* Texturing.m:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F467FC2105FEB350023D8A6 /* Texturing.m */;
+		functionName = "-uploadAsOpenGLTexture:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 48;
+		location = "OpenGL Full Screen";
+		modificationTime = 275160693.914875;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1F1F045C10669E75008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FB8105FEB160023D8A6 /* MyOpenGLView.m */;
+		name = "MyOpenGLView.m: 45";
+		rLen = 0;
+		rLoc = 2751;
+		rType = 0;
+		vrLen = 2775;
+		vrLoc = 409;
+	};
+	1F1F046310669E9E008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FC2105FEB350023D8A6 /* Texturing.m */;
+		name = "Texturing.m: 45";
+		rLen = 0;
+		rLoc = 2765;
+		rType = 0;
+		vrLen = 2611;
+		vrLoc = 1159;
+	};
+	1F1F047F10669EDF008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FC0105FEB350023D8A6 /* Scene.m */;
+		name = "Scene.m: 57";
+		rLen = 0;
+		rLoc = 2800;
+		rType = 0;
+		vrLen = 1548;
+		vrLoc = 1993;
+	};
+	1F1F048010669EDF008E73B7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F1F047210669EBD008E73B7 /* Earth.png */;
+	};
+	1F1F048110669EDF008E73B7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F1F047210669EBD008E73B7 /* Earth.png */;
+	};
+	1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "OpenGL Full Screen";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1F467FB7105FEB160023D8A6 /* MyOpenGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 689}}";
+			sepNavSelRange = "{2770, 0}";
+			sepNavVisRange = "{0, 2857}";
+		};
+	};
+	1F467FB8105FEB160023D8A6 /* MyOpenGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 1183}}";
+			sepNavSelRange = "{2751, 0}";
+			sepNavVisRange = "{409, 2775}";
+		};
+	};
+	1F467FBA105FEB160023D8A6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F467FBB105FEB160023D8A6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F467FBC105FEB2B0023D8A6 /* MainController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 754}}";
+			sepNavSelRange = "{1074, 0}";
+			sepNavVisRange = "{128, 2868}";
+		};
+	};
+	1F467FBD105FEB2B0023D8A6 /* MainController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 2756}}";
+			sepNavSelRange = "{3284, 0}";
+			sepNavVisRange = "{3191, 725}";
+		};
+	};
+	1F467FBF105FEB350023D8A6 /* Scene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 871}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1455, 1592}";
+		};
+	};
+	1F467FC0105FEB350023D8A6 /* Scene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 2379}}";
+			sepNavSelRange = "{2800, 0}";
+			sepNavVisRange = "{1993, 1548}";
+		};
+	};
+	1F467FC1105FEB350023D8A6 /* Texturing.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 709}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2795}";
+		};
+	};
+	1F467FC2105FEB350023D8A6 /* Texturing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 949}}";
+			sepNavSelRange = "{2765, 0}";
+			sepNavVisRange = "{1159, 2611}";
+		};
+	};
+	1F467FEC105FED2B0023D8A6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F467FE2105FECD70023D8A6 /* AppIcon.icns */;
+	};
+	1F467FED105FED2B0023D8A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	1F468000105FED4E0023D8A6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* OpenGL_Full_Screen-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/jeff/Desktop/OpenGL Full Screen/OpenGL_Full_Screen-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1F744520105FFA980068BEBE /* MainController.m:69 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F467FBD105FEB2B0023D8A6 /* MainController.m */;
+		functionName = "-goFullScreen:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 69;
+		location = "OpenGL Full Screen";
+		modificationTime = 275160692.198699;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1FAE81F3105FF95300643448 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FBF105FEB350023D8A6 /* Scene.h */;
+		name = "Scene.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1592;
+		vrLoc = 1455;
+	};
+	256AC3D80F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 709}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 709}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 400}";
+			sepNavWindowFrame = "{{15, 50}, {1284, 1123}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */;
+		activeTarget = 8D1107260486CEB800E47090 /* OpenGL Full Screen */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* OpenGL Full Screen */,
+		);
+		breakpoints = (
+			1F744520105FFA980068BEBE /* MainController.m:69 */,
+			1F1F045810669E71008E73B7 /* Texturing.m:48 */,
+		);
+		codeSenseManager = 1F467FBB105FEB160023D8A6 /* Code sense */;
+		executables = (
+			1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275157447;
+			PBXWorkspaceStateSaveDate = 275157447;
+		};
+		perUserProjectItems = {
+			1F1F03E210669ABF008E73B7 /* PBXTextBookmark */ = 1F1F03E210669ABF008E73B7 /* PBXTextBookmark */;
+			1F1F042110669CD3008E73B7 /* PBXTextBookmark */ = 1F1F042110669CD3008E73B7 /* PBXTextBookmark */;
+			1F1F042310669CD3008E73B7 /* PBXTextBookmark */ = 1F1F042310669CD3008E73B7 /* PBXTextBookmark */;
+			1F1F045210669E4C008E73B7 /* PBXTextBookmark */ = 1F1F045210669E4C008E73B7 /* PBXTextBookmark */;
+			1F1F045310669E4C008E73B7 /* PBXTextBookmark */ = 1F1F045310669E4C008E73B7 /* PBXTextBookmark */;
+			1F1F045410669E4C008E73B7 /* PBXTextBookmark */ = 1F1F045410669E4C008E73B7 /* PBXTextBookmark */;
+			1F1F045C10669E75008E73B7 /* PBXTextBookmark */ = 1F1F045C10669E75008E73B7 /* PBXTextBookmark */;
+			1F1F046310669E9E008E73B7 /* PBXTextBookmark */ = 1F1F046310669E9E008E73B7 /* PBXTextBookmark */;
+			1F1F047F10669EDF008E73B7 /* PBXTextBookmark */ = 1F1F047F10669EDF008E73B7 /* PBXTextBookmark */;
+			1F1F048010669EDF008E73B7 /* PBXBookmark */ = 1F1F048010669EDF008E73B7 /* PBXBookmark */;
+			1F1F048110669EDF008E73B7 /* PBXBookmark */ = 1F1F048110669EDF008E73B7 /* PBXBookmark */;
+			1F467FEC105FED2B0023D8A6 /* PBXBookmark */ = 1F467FEC105FED2B0023D8A6 /* PBXBookmark */;
+			1F467FED105FED2B0023D8A6 /* PBXTextBookmark */ = 1F467FED105FED2B0023D8A6 /* PBXTextBookmark */;
+			1F468000105FED4E0023D8A6 /* PlistBookmark */ = 1F468000105FED4E0023D8A6 /* PlistBookmark */;
+			1FAE81F3105FF95300643448 /* PBXTextBookmark */ = 1FAE81F3105FF95300643448 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F467FBA105FEB160023D8A6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* OpenGL Full Screen */ = {
+		activeExec = 0;
+		executables = (
+			1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */,
+		);
+	};
+	8D1107310486CEB800E47090 /* OpenGL_Full_Screen-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 50}, {1284, 1123}}";
+		};
+	};
+}

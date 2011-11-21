@@ -1,0 +1,139 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Stalled */ = {
+		activeExec = 0;
+		executables = (
+			1FE63AA910B5F08700E8F27E /* Stalled */,
+		);
+	};
+	1FE63AA910B5F08700E8F27E /* Stalled */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Stalled;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1FE63ABB10B5F08E00E8F27E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "More iPhone Development";
+			};
+		};
+	};
+	1FE63ABC10B5F08E00E8F27E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FF570D71123232E00AF0ED5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* StalledViewController.h */;
+		name = "StalledViewController.h: 14";
+		rLen = 0;
+		rLoc = 417;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	1FF5712C1123266B00AF0ED5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* StalledViewController.m */;
+		name = "StalledViewController.m: 14";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 0;
+	};
+	1FF571391123268300AF0ED5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* StalledViewController.m */;
+		name = "StalledViewController.m: 14";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* StalledViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 646}}";
+			sepNavSelRange = "{417, 0}";
+			sepNavVisRange = "{0, 417}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* StalledViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 651}}";
+			sepNavSelRange = "{441, 0}";
+			sepNavVisRange = "{334, 310}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FE63AA910B5F08700E8F27E /* Stalled */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Stalled */;
+		codeSenseManager = 1FE63ABC10B5F08E00E8F27E /* Code sense */;
+		executables = (
+			1FE63AA910B5F08700E8F27E /* Stalled */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					873,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287516265;
+			PBXWorkspaceStateSaveDate = 287516265;
+		};
+		perUserProjectItems = {
+			1FF570D71123232E00AF0ED5 /* PBXTextBookmark */ = 1FF570D71123232E00AF0ED5 /* PBXTextBookmark */;
+			1FF5712C1123266B00AF0ED5 /* PBXTextBookmark */ = 1FF5712C1123266B00AF0ED5 /* PBXTextBookmark */;
+			1FF571391123268300AF0ED5 /* PBXTextBookmark */ = 1FF571391123268300AF0ED5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FE63ABB10B5F08E00E8F27E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

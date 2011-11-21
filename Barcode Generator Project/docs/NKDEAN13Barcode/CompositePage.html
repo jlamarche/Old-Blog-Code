@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDEAN13Barcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDEAN13Barcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+EAN-13 is a superset of UPC-A that is more globally friendly. To add support for more countries, an additional digit
+had to be added (13 as opposed to UPC's 12), but to make it backward compatible with UPC-A, this extra digit is encoded
+not in the bars directly but in the parity of the other encoded letters. For UPC-A values, a zero is prepended to the
+content, and the character parity is the same as specified in the UPC-A specs.
+<br><br>
+We need to override content, digitsToRight, and rightCaption because EAN display the characters slightly differently
+than UPC-A (1 to the left, 6 digits on each side of the center guard bars, none to the right). We also need to override the
+method barcode to deal with the increased parity options of EAN.
+ <hr><br><p>(Last Updated 4/21/2003)
+</p></body></html>

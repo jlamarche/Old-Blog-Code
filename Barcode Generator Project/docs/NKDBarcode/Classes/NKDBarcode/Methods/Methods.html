@@ -1,0 +1,521 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>Methods</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">Methods</font></h1><hr><br>
+<a name="//apple_ref/occ/instm/NKDBarcode/_encodeChar"></a>
+<h3><a name="_encodeChar">_encodeChar</a></h3>
+<b>Abstract:</b> Private method to turn a single character into a string of 1s and 0s.
+
+<blockquote><pre><tt>- (NSString *)<B>_encodeChar:</B>(char)<I>inChar;</I> </tt><br>
+</pre></blockquote>
+<p>This routine returns an NSString representing a single character. This private method
+is used by the default getBarcode function, which is responsible for ordering the
+characters (if necessary and returning the entire encoded string, excluding the
+terminator and initiator.
+</p>
+<b>Result:</b> String of 0s and 1s representing inChar encoded for this barcode.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/barBottom:"></a>
+<h3><a name="barBottom:">barBottom:</a></h3>
+<b>Abstract:</b> Designates the bottom of the bar within the barcode for the bar at a given index.
+
+<blockquote><pre><tt>- (float)<B>barBottom:</B>(int)<I>index;</I> </tt><br>
+</pre></blockquote>
+<p>Given an index which corresponds to the bar / gap number (counting from left), where should
+the bottom of the bar be. For most barcodes this value will always be the bottom of the barcode
+excluding the caption, but some, like UPC and EAN have different bar bottoms for some bars.
+Assumes that origin (0,0) is in lower left.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>index</tt></td><td>The bar (from the left, 0-indexed) to specify the bottom position for.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> The bottom of the bar in inches from the bottom of the barcode.
+
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/barTop:"></a>
+<h3><a name="barTop:">barTop:</a></h3>
+<b>Abstract:</b> Designates the top of the bar within the barcode for the bar at a given index.
+
+<blockquote><pre><tt>- (float)<B>barTop:</B>(int)<I>index;</I> </tt><br>
+</pre></blockquote>
+<p>Given an index which corresponds to the bar/gap number (counting from left, 0-indexed),
+this method will tell where the top of the bar should be. For most barcodes this value will
+always be the top of the barcode excluding the caption, since most barcodes have a uniform top, but
+some, like PostNet use different bar tops as part of the encoding scheme.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>index</tt></td><td>The bar (from the left, 0 indexed) to specify the top position for.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> The top of the bar in inches from the bottom of the barcode.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/barWidth"></a>
+<h3><a name="barWidth">barWidth</a></h3>
+<b>Abstract:</b> Accessor method for the current width of a single bar in inches
+
+<blockquote><pre><tt>- (float)<B>barWidth;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> The current width in inches of a single bar or gap.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/barcode:"></a>
+<h3><a name="barcode:">barcode:</a></h3>
+<b>Abstract:</b> Returns string of 0s and 1s representing the content for this type of barcode.
+
+<blockquote><pre><tt>- (NSString *)<B>barcode;</B> </tt><br>
+</pre></blockquote>
+<p>This method returns a string representing the entire barcode, excluding the initiator
+and terminator.
+</p>
+<b>Result:</b> String of 0s and 1s representing the content.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/calculateWidth"></a>
+<h3><a name="calculateWidth">calculateWidth</a></h3>
+<b>Abstract:</b> Calculates the correct width for the barcode based on the encoding scheme and the specified bar width.
+ 
+<blockquote><pre><tt>- (void)<B>calculateWidth;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/caption"></a>
+<h3><a name="caption">caption</a></h3>
+<b>Abstract:</b> Returns content to print below the barcode.
+
+<blockquote><pre><tt>- (NSString *)<B>caption;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String representing the portion of the caption that goes under (or intrudes upon) the barcode.
+
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/captionHeight"></a>
+<h3><a name="captionHeight">captionHeight</a></h3>
+<b>Abstract:</b> Returns the amount of space to leave under the barcode for the caption
+
+<blockquote><pre><tt>- (float)<B>captionHeight;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> Floating point value representing the amount of space to leave (in inches)
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/checkDigit"></a>
+<h3><a name="checkDigit">checkDigit</a></h3>
+<b>Abstract:</b> Accessor method for the checkDigit for this barcode.
+
+<blockquote><pre><tt>- (char)<B>checkDigit;</B> </tt><br>
+</pre></blockquote>
+<p>Many barcodes offer and some require a check digit that is calculated based on the rest of the content. This
+value shouldn't print as part of the caption and will need to be recalculated if the content changes, so
+it makes sense to store it separately
+</p>
+<b>Result:</b> The check digit character (ASCII-8 char, not unichar)
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/completeBarcode"></a>
+<h3><a name="completeBarcode">completeBarcode</a></h3>
+<b>Abstract:</b> Method to get the entire barcode as a string of 0s and 1s
+
+<blockquote><pre><tt>- (NSString *)<B>completeBarcode;</B> </tt><br>
+</pre></blockquote>
+<p>Returns a string representing the entire barcode, including terminator and initiator.
+</p>
+<b>Result:</b> String of 0s and 1s representing the entire barcode
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/content"></a>
+<h3><a name="content">content</a></h3>
+<b>Abstract:</b> Accessor method for the data being encoded by this barcode.
+
+<blockquote><pre><tt>- (NSString *)<B>content;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> Pointer to the NSString that stores the barcode's data.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/digitsToLeft"></a>
+<h3><a name="digitsToLeft">digitsToLeft</a></h3>
+<b>Abstract:</b> Returns number of digits to print to the left of the first bar.
+
+<blockquote><pre><tt>- (int)<B>digitsToLeft;</B> </tt><br>
+</pre></blockquote>
+<p>For encoders with intruding captions such as UPC and EAN barcodes, this method
+tells how many of the digits of the content should be printed to the left of the barcode,
+rather than intruding on the barcode or printing below the barcode. This only needs to be
+overridden if you need a value other than 0
+</p>
+<b>Result:</b> The number of characters to print to the left.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/digitsToRight"></a>
+<h3><a name="digitsToRight">digitsToRight</a></h3>
+<b>Abstract:</b> Returns number of digits to print to the right of the last bar.
+
+<blockquote><pre><tt>- (int)<B>digitsToRight;</B> </tt><br>
+</pre></blockquote>
+<p>For encoders with intruding captions such as UPC and EAN barcodes, this method
+tells how many of the digits of the content should be printed to the right of the barcode,
+rather than intruding on the barcode or printing below the barcode. This only needs to be
+overridden if you need a value other than 0
+</p>
+<b>Result:</b> The number of characters to print to the right.
+
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/firstBar"></a>
+<h3><a name="firstBar">firstBar</a></h3>
+<b>Abstract:</b> Returns the position, from the left, specified in inches where the first bar prints
+
+<blockquote><pre><tt>- (float)<B>firstBar;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the the horizontal position of the left edge of the first bar or gap. Typically, this is 0,
+but some code, like EAN/UPC require some digits to print to the left and/or right of the code, meaning
+that we need allocate some white space by skipping some pixels before drawing the first bar
+</p>
+<b>Result:</b> The x-position in inches where the first bar prints
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/fontSize"></a>
+<h3><a name="fontSize">fontSize</a></h3>
+<b>Abstract:</b> returns the size of the font to use for the caption
+
+<blockquote><pre><tt>- (float)<B>fontSize;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> Floating point value representing the size of the font (in points) to use for the caption
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/generateChecksum"></a>
+<h3><a name="generateChecksum">generateChecksum</a></h3>
+<b>Abstract:</b> Generates the check digit or checksum for this barcode encoding scheme.
+
+<blockquote><pre><tt>- (void)<B>generateChecksum;</B> </tt><br>
+</pre></blockquote>
+<p>This can be overridden by objects implementing encoding schemes that
+have a checksum algorithm. You can either require the entire, correct
+number be passed in the constructor including the check digit (parsing
+it out as appropriate, or you can accept the  number without the checksum
+and modify the content accordingly here.
+</p>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/height"></a>
+<h3><a name="height">height</a></h3>
+<b>Abstract:</b> Accessor method for the height of this barcode.
+
+<blockquote><pre><tt>- (float)<B>height;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> The current height of the barcode in inches.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/initWithContent:"></a>
+<h3><a name="initWithContent:">initWithContent:</a></h3>
+<b>Abstract:</b> Initializes new barcode object to encode provided data.
+
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString *)<I>inContent;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inContent</tt></td><td>A string containing the data to be encoded; should use only <B>ASCII-8</B> characters
+(those that can be encoded using a single char in UTF-8)</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Returns initialized NKDBarcode class
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/initWithContent:printsCaption"></a>
+<h3><a name="initWithContent:printsCaption">initWithContent:printsCaption</a></h3>
+<b>Abstract:</b> Initializes new barcode object with provided data and specifies whether a caption should be printed
+below the barcode.
+
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString *)inContent
+      <I></I> <B>printsCaption:</B>(BOOL)<I>inPrints;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inContent</tt></td><td>A string containing the data to be encoded; should use only <B>ASCII-8</B> characters
+(those that can be encoded using a single char in UTF-8)</td></tr>
+<tr><td align="center"><tt>inPrints</tt></td><td>YES if caption should print.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Returns initialized NKDBarcode class
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/initWithContent:printsCaption:andBarWidth:andHeight:andFontSize:andCheckDigit:"></a>
+<h3><a name="initWithContent:printsCaption:andBarWidth:andHeight:andFontSize:andCheckDigit:">initWithContent:printsCaption:andBarWidth:andHeight:andFontSize:andCheckDigit:</a></h3>
+<b>Abstract:</b> Designated initializer for abstract barcode object.
+
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString *)inContent
+      <I></I> <B>printsCaption:</B>(BOOL)inPrints
+        <I></I> <B>andBarWidth:</B>(float)inBarWidth
+          <I></I> <B>andHeight:</B>(float)inHeight
+        <I></I> <B>andFontSize:</B>(float)inFontSize
+      <I></I> <B>andCheckDigit:</B>(char)<I>inDigit;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inContent</tt></td><td>A string containing the data to be encoded; should use only <B>ASCII-8</B> characters
+(those that can be encoded using a single char in UTF-8)</td></tr>
+<tr><td align="center"><tt>inPrints</tt></td><td>YES if caption should print.</td></tr>
+<tr><td align="center"><tt>inBarWidth</tt></td><td>Width of the smallest bar or gap to be used, in base units (points)</td></tr>
+<tr><td align="center"><tt>inHeight</tt></td><td>Height of the bar (excluding caption) in base units</td></tr>
+<tr><td align="center"><tt>inFontSize</tt></td><td>Size of the font to use for the caption</td></tr>
+<tr><td align="center"><tt>inDigit</tt></td><td>Check Digit either provided or calculated, -1 if not used or not yet calculated</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Returns initialized NKDBarcode class
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/initiator"></a>
+<h3><a name="initiator">initiator</a></h3>
+<b>Abstract:</b> Returns the encoded initiator or alignment bar(s)
+
+<blockquote><pre><tt>- (NSString *)<B>initiator;</B> </tt><br>
+</pre></blockquote>
+<p>Returns encoded string representing the left most character. While some barcodes
+do not use this, many do have a required character of sequence of bars or gaps
+that are used for calibration. Sublasses only need to override if such a character
+is needed.
+</p>
+<b>Result:</b> String of 0s and 1s representing the first (non-content) character or alignment bar(s).
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/isContentValid"></a>
+<h3><a name="isContentValid">isContentValid</a></h3>
+<b>Abstract:</b> Validates that this barcode supports the data it is encoding.
+
+<blockquote><pre><tt>- (BOOL)<B>isContentValid;</B> </tt><br>
+</pre></blockquote>
+<p>This method checks the actual content string to make sure that this encoding
+scheme can encode the data it contains. For example, numeric-only schemes
+should return false if a string with one or more letters is passed. If there
+is a checksum used for the content. that can also be checked here.  Don't
+override if validation isn't desired or required.
+ </p>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/isSizeValid"></a>
+<h3><a name="isSizeValid">isSizeValid</a></h3>
+<b>Abstract:</b> (Deprecated) Returns true if the supplied image size provides sufficient
+space to create a valid (open) barcode using this encoding scheme.
+
+<blockquote><pre><tt>- (BOOL)<B>isSizeValid;</B> </tt><br>
+</pre></blockquote>
+<p>The first version of this barcode framework allowed the user to specify
+the size of the barcode when it was instantiated. This method was
+implemented as a check to make sure that the barcode that was created
+didn't result in a barWidth less than the barcode's specification allowed
+(usually 7.5 mils)
+</p>
+<b>Result:</b> YES if the bar width at these settings is okay according to the specifications.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/lastBar"></a>
+<h3><a name="lastBar">lastBar</a></h3>
+<b>Abstract:</b> Returns the position, from the left, specified in inches where the last bar ends
+
+<blockquote><pre><tt>- (float)<B>lastBar;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the the horizontal position of the right edge of the last bar or gap. Typically, this is the
+same as [barcode width] but some codes, like EAN/UPC require some digits to print to the left and/or
+right of the code, meaning that we need allocate some white space by ending the codes before the end
+of the barcode. This is generally the right edge of the last barcode less one barwidth
+</p>
+<b>Result:</b> The x-position in inches where the last bar ends
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/leftCaption"></a>
+<h3><a name="leftCaption">leftCaption</a></h3>
+<b>Abstract:</b> Returns string representing the characters to print to the left of the first bar
+
+<blockquote><pre><tt>- (NSString *)<B>leftCaption;</B> </tt><br>
+</pre></blockquote>
+<p>Returns string representing the portion of the caption that goes to the left of the barcode.
+</p>
+<b>Result:</b> A string with the data to print to the left.
+
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/printsCaption"></a>
+<h3><a name="printsCaption">printsCaption</a></h3>
+<b>Abstract:</b> Accessor method for printsCaption.
+
+<blockquote><pre><tt>- (BOOL)<B>printsCaption;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> YES if the content should be printed below the barcode.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/rightCaption"></a>
+<h3><a name="rightCaption">rightCaption</a></h3>
+<b>Abstract:</b> Returns string representing the characters to print to the right of the last bar
+
+<blockquote><pre><tt>- (NSString *)<B>rightCaption;</B> </tt><br>
+</pre></blockquote>
+<p>Returns string representing the portion of the caption that goes to the right of the barcode.
+</p>
+<b>Result:</b> A string with the data to print to the right.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setBarWidth:"></a>
+<h3><a name="setBarWidth:">setBarWidth:</a></h3>
+<b>Abstract:</b> Sets the width of a single bar (represented by a single 1 in the barcode string).
+
+<blockquote><pre><tt>- (void)<B>setBarWidth:</B>(float)<I>inBarWidth;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inBarWidth</tt></td><td>The value to use for the width of a single bar.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setCaptionHeight:"></a>
+<h3><a name="setCaptionHeight:">setCaptionHeight:</a></h3>
+<blockquote><pre><tt>- (void)<B>setCaptionHeight:</B>(float)<I>inHeight;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inHeight</tt></td><td>: Floating point amount of space to set (in inches)</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setCheckDigit:"></a>
+<h3><a name="setCheckDigit:">setCheckDigit:</a></h3>
+<b>Abstract:</b> Sets the check digit to the provided character.
+
+<blockquote><pre><tt>- (void)<B>setCheckDigit:</B>(char)<I>inCheckDigit;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inCheckDigit</tt></td><td>Character (char, not unichar) to set the check digit to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setContent:"></a>
+<h3><a name="setContent:">setContent:</a></h3>
+<b>Abstract:</b> Sets the content to provided NSString.
+
+<blockquote><pre><tt>- (void)<B>setContent:</B>(NSString *)<I>inContent;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inContent</tt></td><td>A string containing the data to be encoded; should use only <B>ASCII-8</B> characters
+(those that can be encoded using a single char in UTF-8)</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setFontSize:"></a>
+<h3><a name="setFontSize:">setFontSize:</a></h3>
+<b>Abstract:</b> Sets the size of the font to use
+
+<blockquote><pre><tt>- (void)<B>setFontSize:</B>(float)<I>inSize;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inSize</tt></td><td>The size (as a float) of the font to use</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setHeight:"></a>
+<h3><a name="setHeight:">setHeight:</a></h3>
+<b>Abstract:</b> Sets the barcode height to the provided value.
+
+<blockquote><pre><tt>- (void)<B>setHeight:</B>(float)<I>inHeight;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inHeight</tt></td><td>Value to set the height to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setPrintsCaption:"></a>
+<h3><a name="setPrintsCaption:">setPrintsCaption:</a></h3>
+<b>Abstract:</b> Sets whether this barcode should print the content below the code.
+
+<blockquote><pre><tt>- (void)<B>setPrintsCaption:</B>(BOOL)<I>inPrints;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inPrints</tt></td><td>Boolean value to specify whether the caption should print.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/setWidth:"></a>
+<h3><a name="setWidth:">setWidth:</a></h3>
+<b>Abstract:</b> Sets the barcode width to the provided value.
+
+<blockquote><pre><tt>- (void)<B>setWidth:</B>(float)<I>inWidth;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inWidth</tt></td><td>Value to set the width to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/terminator"></a>
+<h3><a name="terminator">terminator</a></h3>
+<b>Abstract:</b> Returns the encoded terminator or alignment bar(s)
+
+<blockquote><pre><tt>- (NSString *)<B>terminator;</B> </tt><br>
+</pre></blockquote>
+<p>Returns encoded string representing the right-most characte. While some barcodes
+do not use this, many do have a required character of sequence of bars or gaps
+that are used for calibration. Sublasses only need to override if such a character
+is needed.
+</p>
+<b>Result:</b> String of 0s and 1s representing the last (non-content) character or alignment bar(s).
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcode/width"></a>
+<h3><a name="width">width</a></h3>
+<b>Abstract:</b> Accessor method for the width of this barcode.
+
+<blockquote><pre><tt>- (float)<B>width;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> The current width of this barcode in inches.
+ 
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

@@ -1,0 +1,52 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NKDBarcodeImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {
+            ACTIONS = {
+                barcodeTypeChanged = id; 
+                buttonCellClick = id; 
+                captionChanged = id; 
+                copyButtonActionPerformed = id; 
+                doPreferences = id; 
+                exportButtonActionPerformed = id; 
+                exportCancel = id; 
+                exportFileTypeChanged = id; 
+                exportOkay = id; 
+                fontSizeChanged = id; 
+                goButtonActionPerformed = id; 
+                heightChanged = id; 
+                prefsOkay = id; 
+                printBarcode = id; 
+                widthChanged = id; 
+            }; 
+            CLASS = NKDBarcodeTestScaffoldController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ExportButton = id; 
+                HeightStepper = id; 
+                HeightText = id; 
+                barHeightLabel = id; 
+                barWidthLabel = id; 
+                barcodeImage = id; 
+                barcodeTypePopup = id; 
+                captionCheckbox = id; 
+                copyButton = id; 
+                dataText = id; 
+                fileFormatPopup = id; 
+                fontSizeStepper = id; 
+                fontSizeText = id; 
+                matrix = NSMatrix; 
+                panel = NSWindow; 
+                prefPanel = NSWindow; 
+                printButton = id; 
+                saveDPIText = id; 
+                widthStepper = id; 
+                widthText = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSBarcodeImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }
+    ); 
+    IBVersion = 1; 
+}

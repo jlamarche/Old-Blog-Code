@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* RotateAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 601}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Rotate */ = {
+		activeExec = 0;
+		executables = (
+			1F6874E51036E83900E1D619 /* Rotate */,
+		);
+	};
+	1F2B89FD107EDD000034CBA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RotateViewController.m */;
+		name = "RotateViewController.m: 63";
+		rLen = 0;
+		rLoc = 1905;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 738;
+	};
+	1F374B041037635A00544E6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RotateViewController.m */;
+		name = "RotateViewController.m: 31";
+		rLen = 1532;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 738;
+	};
+	1F6874E51036E83900E1D619 /* Rotate */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Rotate;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F6874F01036E84B00E1D619 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F6874F11036E84B00E1D619 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F6875031036F0F400E1D619 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RotateAppDelegate.m */;
+		name = "RotateAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* RotateViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1225, 1010}}";
+			sepNavSelRange = "{135, 531}";
+			sepNavVisRange = "{0, 667}";
+			sepNavWindowFrame = "{{15, 50}, {1284, 1123}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* RotateViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 923}}";
+			sepNavSelRange = "{1905, 0}";
+			sepNavVisRange = "{738, 1318}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F6874E51036E83900E1D619 /* Rotate */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Rotate */;
+		codeSenseManager = 1F6874F11036E84B00E1D619 /* Code sense */;
+		executables = (
+			1F6874E51036E83900E1D619 /* Rotate */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 276749547;
+			PBXWorkspaceStateSaveDate = 276749547;
+		};
+		perUserProjectItems = {
+			1F2B89FD107EDD000034CBA0 /* PBXTextBookmark */ = 1F2B89FD107EDD000034CBA0 /* PBXTextBookmark */;
+			1F374B041037635A00544E6A /* PBXTextBookmark */ = 1F374B041037635A00544E6A /* PBXTextBookmark */;
+			1F6875031036F0F400E1D619 /* PBXTextBookmark */ = 1F6875031036F0F400E1D619 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F6874F01036E84B00E1D619 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

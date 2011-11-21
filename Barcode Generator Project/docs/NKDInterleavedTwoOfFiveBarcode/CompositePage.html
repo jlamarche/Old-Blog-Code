@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDInterleavedTwoOfFiveBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDInterleavedTwoOfFiveBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+Interleaved 2 of 5 uses Wide and Narrow bars interleaved (digits 1 and 2 occupy the same
+space, one is bars, the other by the spaces. Therefore, we won't be using _encodeChar - we'll
+override the barcode method to use a class-specific method called _getBarForDigit:forBarNumber
+<br><br>
+Because of the interleaving, there must be an even number of characters; With the check-digit, odd
+length values become even and even-length become odd. Odd numbers (even when check-digit used)
+are zero-padded to make an even-length value.
+                                                           <hr><br><h2>#defines</h2>
+<h3><a name="NARROW_BAR">NARROW_BAR</a></h3>
+<blockquote><pre>
+#define NARROW_BAR YES
+</pre>
+</blockquote>
+<p>YES value returned by _getBarForDigit:forBarNumber to identify a narrow bar or gap.
+ </p>
+<hr>
+<h3><a name="WIDE_BAR">WIDE_BAR</a></h3>
+<blockquote><pre>
+#define WIDE_BAR NO
+</pre>
+</blockquote>
+<p>NO value returned by _getBarForDigit:forBarNumber to identify a wide bar or gap.
+ </p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

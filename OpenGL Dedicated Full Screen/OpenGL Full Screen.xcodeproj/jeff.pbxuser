@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1225, 1010}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 50}, {1284, 1123}}";
+		};
+	};
+	1F1F04A71066A11D008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.m */;
+		name = "OpenGL_Full_ScreenAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	1F1F04A81066A11D008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FB8105FEB160023D8A6 /* MyOpenGLView.m */;
+		name = "MyOpenGLView.m: 89";
+		rLen = 0;
+		rLoc = 3546;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 2658;
+	};
+	1F1F04A91066A11D008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FB7105FEB160023D8A6 /* MyOpenGLView.h */;
+		name = "MyOpenGLView.h: 19";
+		rLen = 0;
+		rLoc = 1104;
+		rType = 0;
+		vrLen = 2853;
+		vrLoc = 0;
+	};
+	1F1F04AA1066A11D008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FBC105FEB2B0023D8A6 /* MainController.h */;
+		name = "MainController.h: 56";
+		rLen = 0;
+		rLoc = 2841;
+		rType = 0;
+		vrLen = 2849;
+		vrLoc = 0;
+	};
+	1F1F04C01066A193008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FBD105FEB2B0023D8A6 /* MainController.m */;
+		name = "MainController.m: 90";
+		rLen = 0;
+		rLoc = 3979;
+		rType = 0;
+		vrLen = 1664;
+		vrLoc = 3517;
+	};
+	1F1F04C11066A193008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.h */;
+		name = "OpenGL_Full_ScreenAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	1F1F04C21066A193008E73B7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F1F04B61066A152008E73B7 /* Earth.png */;
+	};
+	1F1F04C41066A193008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FC0105FEB350023D8A6 /* Scene.m */;
+		name = "Scene.m: 62";
+		rLen = 0;
+		rLoc = 3153;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 2663;
+	};
+	1F1F04CD1066A1D1008E73B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FC0105FEB350023D8A6 /* Scene.m */;
+		name = "Scene.m: 64";
+		rLen = 0;
+		rLoc = 3188;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 2663;
+	};
+	1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "OpenGL Full Screen";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1F467FB7105FEB160023D8A6 /* MyOpenGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 910}}";
+			sepNavSelRange = "{1104, 0}";
+			sepNavVisRange = "{0, 2853}";
+		};
+	};
+	1F467FB8105FEB160023D8A6 /* MyOpenGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 1417}}";
+			sepNavSelRange = "{3546, 0}";
+			sepNavVisRange = "{2658, 1296}";
+		};
+	};
+	1F467FBA105FEB160023D8A6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F467FBB105FEB160023D8A6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F467FBC105FEB2B0023D8A6 /* MainController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 910}}";
+			sepNavSelRange = "{2841, 0}";
+			sepNavVisRange = "{0, 2849}";
+		};
+	};
+	1F467FBD105FEB2B0023D8A6 /* MainController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 2249}}";
+			sepNavSelRange = "{3979, 0}";
+			sepNavVisRange = "{3517, 1664}";
+		};
+	};
+	1F467FBF105FEB350023D8A6 /* Scene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 871}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1455, 1592}";
+		};
+	};
+	1F467FC0105FEB350023D8A6 /* Scene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 2496}}";
+			sepNavSelRange = "{3188, 0}";
+			sepNavVisRange = "{2663, 973}";
+		};
+	};
+	1F467FC2105FEB350023D8A6 /* Texturing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 949}}";
+			sepNavSelRange = "{2766, 49}";
+			sepNavVisRange = "{2137, 1633}";
+		};
+	};
+	1F467FEC105FED2B0023D8A6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F467FE2105FECD70023D8A6 /* AppIcon.icns */;
+	};
+	1F467FED105FED2B0023D8A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	1F468000105FED4E0023D8A6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* OpenGL_Full_Screen-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/jeff/Desktop/OpenGL Full Screen/OpenGL_Full_Screen-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1F744520105FFA980068BEBE /* MainController.m:71 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F467FBD105FEB2B0023D8A6 /* MainController.m */;
+		functionName = "-goFullScreen:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 71;
+		location = "OpenGL Full Screen";
+		modificationTime = 274725625.367195;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1FAE81F3105FF95300643448 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FBF105FEB350023D8A6 /* Scene.h */;
+		name = "Scene.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1592;
+		vrLoc = 1455;
+	};
+	1FAE81F9105FF98900643448 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F467FC2105FEB350023D8A6 /* Texturing.m */;
+		name = "Texturing.m: 46";
+		rLen = 49;
+		rLoc = 2766;
+		rType = 0;
+		vrLen = 1633;
+		vrLoc = 2137;
+	};
+	256AC3D80F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* OpenGL_Full_ScreenAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 910}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 400}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */;
+		activeTarget = 8D1107260486CEB800E47090 /* OpenGL Full Screen */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* OpenGL Full Screen */,
+		);
+		breakpoints = (
+			1F744520105FFA980068BEBE /* MainController.m:71 */,
+		);
+		codeSenseManager = 1F467FBB105FEB160023D8A6 /* Code sense */;
+		executables = (
+			1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					931,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275161547;
+			PBXWorkspaceStateSaveDate = 275161547;
+		};
+		perUserProjectItems = {
+			1F1F04A71066A11D008E73B7 /* PBXTextBookmark */ = 1F1F04A71066A11D008E73B7 /* PBXTextBookmark */;
+			1F1F04A81066A11D008E73B7 /* PBXTextBookmark */ = 1F1F04A81066A11D008E73B7 /* PBXTextBookmark */;
+			1F1F04A91066A11D008E73B7 /* PBXTextBookmark */ = 1F1F04A91066A11D008E73B7 /* PBXTextBookmark */;
+			1F1F04AA1066A11D008E73B7 /* PBXTextBookmark */ = 1F1F04AA1066A11D008E73B7 /* PBXTextBookmark */;
+			1F1F04C01066A193008E73B7 /* PBXTextBookmark */ = 1F1F04C01066A193008E73B7 /* PBXTextBookmark */;
+			1F1F04C11066A193008E73B7 /* PBXTextBookmark */ = 1F1F04C11066A193008E73B7 /* PBXTextBookmark */;
+			1F1F04C21066A193008E73B7 /* PBXBookmark */ = 1F1F04C21066A193008E73B7 /* PBXBookmark */;
+			1F1F04C41066A193008E73B7 /* PBXTextBookmark */ = 1F1F04C41066A193008E73B7 /* PBXTextBookmark */;
+			1F1F04CD1066A1D1008E73B7 /* PBXTextBookmark */ = 1F1F04CD1066A1D1008E73B7 /* PBXTextBookmark */;
+			1F467FEC105FED2B0023D8A6 /* PBXBookmark */ = 1F467FEC105FED2B0023D8A6 /* PBXBookmark */;
+			1F467FED105FED2B0023D8A6 /* PBXTextBookmark */ = 1F467FED105FED2B0023D8A6 /* PBXTextBookmark */;
+			1F468000105FED4E0023D8A6 /* PlistBookmark */ = 1F468000105FED4E0023D8A6 /* PlistBookmark */;
+			1FAE81F3105FF95300643448 /* PBXTextBookmark */ = 1FAE81F3105FF95300643448 /* PBXTextBookmark */;
+			1FAE81F9105FF98900643448 /* PBXTextBookmark */ = 1FAE81F9105FF98900643448 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F467FBA105FEB160023D8A6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* OpenGL Full Screen */ = {
+		activeExec = 0;
+		executables = (
+			1F467FAA105FEB080023D8A6 /* OpenGL Full Screen */,
+		);
+	};
+	8D1107310486CEB800E47090 /* OpenGL_Full_Screen-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 50}, {1284, 1123}}";
+		};
+	};
+}

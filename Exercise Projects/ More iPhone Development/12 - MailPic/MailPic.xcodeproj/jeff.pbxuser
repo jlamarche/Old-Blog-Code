@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* MailPicAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {608, 778}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 607}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MailPic */ = {
+		activeExec = 0;
+		executables = (
+			1FB9738810ADC5C800E25A99 /* MailPic */,
+		);
+	};
+	1F2F1C6210E4772D00EF2690 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MailPicViewController.m */;
+		name = "MailPicViewController.m: 46";
+		rLen = 396;
+		rLoc = 1693;
+		rType = 0;
+		vrLen = 1783;
+		vrLoc = 1416;
+	};
+	1F44C0F511049615001F7ECB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MailPicViewController.m */;
+		name = "MailPicViewController.m: 46";
+		rLen = 396;
+		rLoc = 1693;
+		rType = 0;
+		vrLen = 1685;
+		vrLoc = 1416;
+	};
+	1FB9738810ADC5C800E25A99 /* MailPic */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MailPic;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1FB9739310ADC5E700E25A99 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "More iPhone Development";
+			};
+		};
+	};
+	1FB9739410ADC5E700E25A99 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FB973BD10ADC8CA00E25A99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MailPicAppDelegate.m */;
+		name = "MailPicAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 0;
+	};
+	1FB9740710ADCA0500E25A99 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MailPic-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/jeff/Desktop/MailPic/MailPic-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1FB9742810ADCA7500E25A99 /* MailPicViewController.m:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* MailPicViewController.m */;
+		functionName = "-mailComposeController:didFinishWithResult:error:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = MailPic;
+		modificationTime = 279825208.696359;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1FB9744410ADCB3200E25A99 /* MailPicViewController.m:52 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* MailPicViewController.m */;
+		functionName = "-imagePickerController:didFinishPickingImage:editingInfo:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 52;
+		location = MailPic;
+		modificationTime = 279825232.640703;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1FB974F710AE37A300E25A99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MailPicViewController.h */;
+		name = "MailPicViewController.h: 13";
+		rLen = 31;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* MailPicViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 734}}";
+			sepNavSelRange = "{281, 31}";
+			sepNavVisRange = "{0, 506}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* MailPicViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 1248}}";
+			sepNavSelRange = "{1693, 396}";
+			sepNavVisRange = "{1416, 1685}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FB9738810ADC5C800E25A99 /* MailPic */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MailPic */;
+		breakpoints = (
+			1FB9742810ADCA7500E25A99 /* MailPicViewController.m:67 */,
+			1FB9744410ADCB3200E25A99 /* MailPicViewController.m:52 */,
+		);
+		codeSenseManager = 1FB9739410ADC5E700E25A99 /* Code sense */;
+		executables = (
+			1FB9738810ADC5C800E25A99 /* MailPic */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					718,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 285513221;
+			PBXWorkspaceStateSaveDate = 285513221;
+		};
+		perUserProjectItems = {
+			1F2F1C6210E4772D00EF2690 /* PBXTextBookmark */ = 1F2F1C6210E4772D00EF2690 /* PBXTextBookmark */;
+			1F44C0F511049615001F7ECB /* PBXTextBookmark */ = 1F44C0F511049615001F7ECB /* PBXTextBookmark */;
+			1FB973BD10ADC8CA00E25A99 /* PBXTextBookmark */ = 1FB973BD10ADC8CA00E25A99 /* PBXTextBookmark */;
+			1FB9740710ADCA0500E25A99 /* PlistBookmark */ = 1FB9740710ADCA0500E25A99 /* PlistBookmark */;
+			1FB974F710AE37A300E25A99 /* PBXTextBookmark */ = 1FB974F710AE37A300E25A99 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FB9739310ADC5E700E25A99 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

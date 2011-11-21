@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes
+END
+TestAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/TestAppDelegate.h
+END
+IrregularShapedButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/IrregularShapedButton.h
+END
+TestViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/TestViewController.h
+END
+TestAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/TestAppDelegate.m
+END
+IrregularShapedButton.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/IrregularShapedButton.m
+END
+TestViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/TestViewController.m
+END
+UIImage-Alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/UIImage-Alpha.h
+END
+UIImage-Alpha.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/22/trunk/src/IrregularButton/Classes/UIImage-Alpha.m
+END

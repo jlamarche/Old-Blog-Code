@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* CircleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 723}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 601}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Circle */ = {
+		activeExec = 0;
+		executables = (
+			1FD1FF680FA75EDC00285E5B /* Circle */,
+		);
+	};
+	1FB099EE0FA7C75600A4698A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFD00FA7664F00285E5B /* CircleView.m */;
+		name = "CircleView.m: 140";
+		rLen = 0;
+		rLoc = 4600;
+		rType = 0;
+		vrLen = 3225;
+		vrLoc = 3693;
+	};
+	1FD100170FA769CA00285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CircleViewController.m */;
+		name = "CircleViewController.m: 23";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 327;
+		vrLoc = 0;
+	};
+	1FD100180FA769CA00285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CircleViewController.h */;
+		name = "CircleViewController.h: 15";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 225;
+		vrLoc = 0;
+	};
+	1FD1002B0FA76A0C00285E5B /* CircleView.m:141 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1FD1FFD00FA7664F00285E5B /* CircleView.m */;
+		functionName = "-touchesEnded:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 141;
+		location = Circle;
+		modificationTime = 262630633.301423;
+		state = 1;
+	};
+	1FD100300FA76A2C00285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD100310FA76A2C00285E5B /* CGGeometry.h */;
+		name = "CGGeometry.h: 260";
+		rLen = 0;
+		rLoc = 8315;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 7555;
+	};
+	1FD100310FA76A2C00285E5B /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = "/Developer 3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h";
+		sourceTree = "<absolute>";
+	};
+	1FD100340FA76A2C00285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD100350FA76A2C00285E5B /* CGGeometry.h */;
+		name = "CGGeometry.h: 260";
+		rLen = 0;
+		rLoc = 8315;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 7555;
+	};
+	1FD100350FA76A2C00285E5B /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = "/Developer 3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h";
+		sourceTree = "<absolute>";
+	};
+	1FD100690FA76CE100285E5B /* CircleView.m:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1FD1FFD00FA7664F00285E5B /* CircleView.m */;
+		functionName = "-drawRect:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = Circle;
+		modificationTime = 262630636.108307;
+		state = 1;
+	};
+	1FD100C80FA776C500285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFCF0FA7664F00285E5B /* CircleView.h */;
+		name = "CircleView.h: 14";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 0;
+	};
+	1FD102030FA7C6F000285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFD00FA7664F00285E5B /* CircleView.m */;
+		name = "CircleView.m: 162";
+		rLen = 0;
+		rLoc = 5852;
+		rType = 0;
+		vrLen = 3280;
+		vrLoc = 3631;
+	};
+	1FD1FF680FA75EDC00285E5B /* Circle */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Circle;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1FD1FF6B0FA75EFB00285E5B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1FD1FF6C0FA75EFB00285E5B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FD1FF8E0FA7617100285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CircleViewController.m */;
+		name = "CircleViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 0;
+	};
+	1FD1FF8F0FA7617100285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CircleViewController.h */;
+		name = "CircleViewController.h: 14";
+		rLen = 0;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	1FD1FF9F0FA763E800285E5B /* CGPointUtils.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 896}}";
+			sepNavSelRange = "{282, 64}";
+			sepNavVisRange = "{0, 1117}";
+		};
+	};
+	1FD1FFA00FA763E800285E5B /* CGPointUtils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 723}}";
+			sepNavSelRange = "{190, 21}";
+			sepNavVisRange = "{0, 405}";
+		};
+	};
+	1FD1FFA30FA7640F00285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CircleAppDelegate.m */;
+		name = "CircleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	1FD1FFAB0FA7640F00285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CircleAppDelegate.m */;
+		name = "CircleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	1FD1FFB10FA7644400285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFA00FA763E800285E5B /* CGPointUtils.h */;
+		name = "CGPointUtils.h: 11";
+		rLen = 21;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
+	1FD1FFB30FA7644400285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFA00FA763E800285E5B /* CGPointUtils.h */;
+		name = "CGPointUtils.h: 11";
+		rLen = 21;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
+	1FD1FFCF0FA7664F00285E5B /* CircleView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 873}}";
+			sepNavSelRange = "{369, 0}";
+			sepNavVisRange = "{0, 646}";
+		};
+	};
+	1FD1FFD00FA7664F00285E5B /* CircleView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1511, 2842}}";
+			sepNavSelRange = "{4600, 0}";
+			sepNavVisRange = "{3693, 3225}";
+		};
+	};
+	1FD1FFD70FA767A900285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFCF0FA7664F00285E5B /* CircleView.h */;
+		name = "CircleView.h: 15";
+		rLen = 0;
+		rLoc = 640;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	1FD1FFDB0FA767A900285E5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD1FFD00FA7664F00285E5B /* CircleView.m */;
+		name = "CircleView.m: 31";
+		rLen = 6227;
+		rLoc = 1514;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* CircleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1142, 723}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 225}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CircleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 322}}";
+			sepNavSelRange = "{168, 1}";
+			sepNavVisRange = "{134, 229}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FD1FF680FA75EDC00285E5B /* Circle */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Circle */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Circle */,
+		);
+		breakpoints = (
+			1FD1002B0FA76A0C00285E5B /* CircleView.m:141 */,
+			1FD100690FA76CE100285E5B /* CircleView.m:36 */,
+		);
+		codeSenseManager = 1FD1FF6C0FA75EFB00285E5B /* Code sense */;
+		executables = (
+			1FD1FF680FA75EDC00285E5B /* Circle */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1333,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 262653691;
+			PBXWorkspaceStateSaveDate = 262653691;
+		};
+		perUserProjectItems = {
+			1FB099EE0FA7C75600A4698A /* PBXTextBookmark */ = 1FB099EE0FA7C75600A4698A /* PBXTextBookmark */;
+			1FD100170FA769CA00285E5B /* PBXTextBookmark */ = 1FD100170FA769CA00285E5B /* PBXTextBookmark */;
+			1FD100180FA769CA00285E5B /* PBXTextBookmark */ = 1FD100180FA769CA00285E5B /* PBXTextBookmark */;
+			1FD100300FA76A2C00285E5B /* PBXTextBookmark */ = 1FD100300FA76A2C00285E5B /* PBXTextBookmark */;
+			1FD100340FA76A2C00285E5B /* PBXTextBookmark */ = 1FD100340FA76A2C00285E5B /* PBXTextBookmark */;
+			1FD100C80FA776C500285E5B /* PBXTextBookmark */ = 1FD100C80FA776C500285E5B /* PBXTextBookmark */;
+			1FD102030FA7C6F000285E5B /* PBXTextBookmark */ = 1FD102030FA7C6F000285E5B /* PBXTextBookmark */;
+			1FD1FF8E0FA7617100285E5B /* PBXTextBookmark */ = 1FD1FF8E0FA7617100285E5B /* PBXTextBookmark */;
+			1FD1FF8F0FA7617100285E5B /* PBXTextBookmark */ = 1FD1FF8F0FA7617100285E5B /* PBXTextBookmark */;
+			1FD1FFA30FA7640F00285E5B /* PBXTextBookmark */ = 1FD1FFA30FA7640F00285E5B /* PBXTextBookmark */;
+			1FD1FFAB0FA7640F00285E5B /* PBXTextBookmark */ = 1FD1FFAB0FA7640F00285E5B /* PBXTextBookmark */;
+			1FD1FFB10FA7644400285E5B /* PBXTextBookmark */ = 1FD1FFB10FA7644400285E5B /* PBXTextBookmark */;
+			1FD1FFB30FA7644400285E5B /* PBXTextBookmark */ = 1FD1FFB30FA7644400285E5B /* PBXTextBookmark */;
+			1FD1FFD70FA767A900285E5B /* PBXTextBookmark */ = 1FD1FFD70FA767A900285E5B /* PBXTextBookmark */;
+			1FD1FFDB0FA767A900285E5B /* PBXTextBookmark */ = 1FD1FFDB0FA767A900285E5B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FD1FF6B0FA75EFB00285E5B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

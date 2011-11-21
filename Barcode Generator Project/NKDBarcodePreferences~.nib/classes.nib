@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {buttonCellClick = id; }; 
+            CLASS = NKDBarcodePreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {inches = NSButtonCell; matrix = NSMatrix; metric = NSButtonCell; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

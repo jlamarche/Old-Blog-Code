@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes
+END
+GLProgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLProgram.h
+END
+GLCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLCommon.h
+END
+GLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLView.h
+END
+GLProgram.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLProgram.m
+END
+GLViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLViewController.h
+END
+Hello_GLAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/Hello_GLAppDelegate.h
+END
+GLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLView.m
+END
+GLTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLTexture.h
+END
+GLViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLViewController.m
+END
+Hello_GLAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/Hello_GLAppDelegate.m
+END
+GLTexture.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/Bookshelf/!svn/ver/79669/titles/jmog/Book/code/Textures/3D%20Texture%20Mapping/Classes/GLTexture.m
+END

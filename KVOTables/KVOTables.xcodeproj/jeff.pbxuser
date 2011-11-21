@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* KVOTablesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {657, 727}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 819}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* KVOTables */ = {
+		activeExec = 0;
+		executables = (
+			1F75375D10BCFA16002C6DA7 /* KVOTables */,
+		);
+	};
+	1F75375D10BCFA16002C6DA7 /* KVOTables */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = KVOTables;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1F75376910BCFA28002C6DA7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F75376A10BCFA28002C6DA7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F75377010BCFA54002C6DA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* KVOTablesAppDelegate.m */;
+		name = "KVOTablesAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 819;
+		vrLoc = 0;
+	};
+	1F75378710BCFAC2002C6DA7 /* RootViewController.m:61 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-observeValueForKeyPath:ofObject:change:context:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 61;
+		location = KVOTables;
+		modificationTime = 280820421.556536;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1F75378F10BCFACB002C6DA7 /* RootViewController.m:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-insertNewObject";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 16;
+		location = KVOTables;
+		modificationTime = 280820428.71878;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1F7537B410BCFD0F002C6DA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 51";
+		rLen = 52;
+		rLoc = 1225;
+		rType = 0;
+		vrLen = 1878;
+		vrLoc = 622;
+	};
+	1F7537B510BCFD0F002C6DA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 20";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 468;
+		vrLoc = 0;
+	};
+	1F7537B710BCFD1C002C6DA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 23";
+		rLen = 0;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 0;
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {657, 727}}";
+			sepNavSelRange = "{522, 0}";
+			sepNavVisRange = "{0, 522}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 1716}}";
+			sepNavSelRange = "{1317, 0}";
+			sepNavVisRange = "{1067, 467}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F75375D10BCFA16002C6DA7 /* KVOTables */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* KVOTables */;
+		breakpoints = (
+			1F75378710BCFAC2002C6DA7 /* RootViewController.m:61 */,
+			1F75378F10BCFACB002C6DA7 /* RootViewController.m:16 */,
+		);
+		codeSenseManager = 1F75376A10BCFA28002C6DA7 /* Code sense */;
+		executables = (
+			1F75375D10BCFA16002C6DA7 /* KVOTables */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					479,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 280820246;
+			PBXWorkspaceStateSaveDate = 280820246;
+		};
+		perUserProjectItems = {
+			1F75377010BCFA54002C6DA7 /* PBXTextBookmark */ = 1F75377010BCFA54002C6DA7 /* PBXTextBookmark */;
+			1F7537B410BCFD0F002C6DA7 /* PBXTextBookmark */ = 1F7537B410BCFD0F002C6DA7 /* PBXTextBookmark */;
+			1F7537B510BCFD0F002C6DA7 /* PBXTextBookmark */ = 1F7537B510BCFD0F002C6DA7 /* PBXTextBookmark */;
+			1F7537B710BCFD1C002C6DA7 /* PBXTextBookmark */ = 1F7537B710BCFD1C002C6DA7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F75376910BCFA28002C6DA7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

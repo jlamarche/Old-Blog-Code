@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDRoyalMailBarcode</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDRoyalMailBarcode</font></h1><hr><br>
+<h2>Abstract</h2>
+Royal Mail routing barcode
+<h2>Discussion</h2>
+Implementation of the RM4SCC barcode specification.
+<hr><br><h2>Methods</h2>
+
+<h3><a name="_encodeChar:">_encodeChar:</a></h3>
+<b>Abstract:</b> Simple routine to return four bars separated by gaps
+
+<blockquote><pre><tt>- (NSString *)<B>_encodeChar:</B>(char)<I>inChar;</I> </tt><br>
+</pre></blockquote>
+<p>All RM4SCC characters are 4 bars long.
+</p>
+<b>Result:</b> "10101010"
+
+<hr>
+
+<h3><a name="barBottom:">barBottom:</a></h3>
+<b>Abstract:</b> Returns the location of the bottom of a specified bar (assuming origin at lower left)
+
+<blockquote><pre><tt>- (float)<B>barBottom:</B>(int)<I>index;</I> </tt><br>
+</pre></blockquote>
+<p>Depending on the digit and bar, returns either CBC_TRACK_BOTTOM or CBC_DESCENDER_BOTTOM.
+</p>
+<b>Result:</b> CBC_TRACK_BOTTOM or CBC_DESCENDER_BOTTOM
+
+<hr>
+
+<h3><a name="barTop:">barTop:</a></h3>
+<b>Abstract:</b> Returns the location of the top of a specified bar (assuming origin at lower left)
+
+<blockquote><pre><tt>- (float)<B>barTop:</B>(int)<I>index;</I> </tt><br>
+</pre></blockquote>
+<p>Depending on the digit and bar, returns either CBC_TRACK_TOP or CBC_ASCENDER_TOP.
+</p>
+<b>Result:</b> CBC_TRACK_TOP or CBC_ASCENDER_TOP
+
+<hr>
+
+<h3><a name="generateChecksum">generateChecksum</a></h3>
+<b>Abstract:</b> Generates a checksum digit equal to ((ascenders%6)*6)+descenders, where ascenders and descenders are
+the weighted sums of the descenders and ascenders in the bar code digits.
+
+<blockquote><pre><tt>- (void)<B>generateChecksum;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<hr>
+
+<h3><a name="initWithContent:printsCaption">initWithContent:printsCaption</a></h3>
+<b>Abstract:</b> Overridden method that sets values for this barcode according to Royal Mail specifications
+
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString*)<I>inContent
+</I> <B>printsCaption:</B>(BOOL)<I>inPrints;</I> </tt><br>
+</pre></blockquote>
+<p>This constructor also calculates the checkdigit.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inContent</tt></td><td>The content to be encoded (can contain A-Z and 0-9)</td></tr>
+<tr><td align="center"><tt>inPrints</tt></td><td>Ignored; RM4SCC never uses a caption.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Initialized barcode encoding <i>content</i> using RM4SCC encoding
+ 
+<hr>
+
+<h3><a name="initiator">initiator</a></h3>
+<b>Abstract:</b> Initiator in RM4SCC is a single ascender plus a gap of the bar width.
+
+<blockquote><pre><tt>- (NSString *)<B>initiator;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> "10"
+
+<hr>
+
+<h3><a name="printsCaption">printsCaption</a></h3>
+<b>Abstract:</b> Overriden because RM4SCC never uses a caption.
+
+<blockquote><pre><tt>- (BOOL)<B>printsCaption;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> NO
+ 
+<hr>
+
+<h3><a name="terminator">terminator</a></h3>
+<b>Abstract:</b> Terminating character in RM4SCC is a single full bar.
+
+<blockquote><pre><tt>- (NSString *)<B>terminator;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> "1"
+
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

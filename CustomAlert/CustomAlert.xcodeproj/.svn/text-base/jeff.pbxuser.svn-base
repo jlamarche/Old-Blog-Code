@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* CustomAlertAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 177}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CustomAlert */ = {
+		activeExec = 0;
+		executables = (
+			1FCCDBC31138093500392A89 /* CustomAlert */,
+		);
+	};
+	1F6820B6113EFDEB00807BA7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CustomAlert-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/jeff/dev/iPhoneBits/src/CustomAlert/CustomAlert-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1F682120113FEAB700807BA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CustomAlertViewController.m */;
+		name = "CustomAlertViewController.m: 21";
+		rLen = 0;
+		rLoc = 856;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 469;
+	};
+	1F682122113FEDF200807BA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CustomAlertViewController.m */;
+		name = "CustomAlertViewController.m: 21";
+		rLen = 320;
+		rLoc = 812;
+		rType = 0;
+		vrLen = 2072;
+		vrLoc = 0;
+	};
+	1FA07D96113C945A00F3B566 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CustomAlertViewController.h */;
+		name = "CustomAlertViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 0;
+	};
+	1FCCDBC31138093500392A89 /* CustomAlert */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CustomAlert;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1FCCDBD01138094000392A89 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1FCCDBD11138094000392A89 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FCCDBD911380A6D00392A89 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1FCCDBCE1138093F00392A89 /* alert.png */;
+	};
+	1FCCDBDA11380A6D00392A89 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CustomAlertAppDelegate.m */;
+		name = "CustomAlertAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* CustomAlertViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 211}}";
+			sepNavSelRange = "{392, 0}";
+			sepNavVisRange = "{0, 399}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CustomAlertViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 780}}";
+			sepNavSelRange = "{812, 320}";
+			sepNavVisRange = "{0, 2072}";
+			sepNavWindowFrame = "{{15, 46}, {1646, 1127}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FCCDBC31138093500392A89 /* CustomAlert */;
+		activeSDKPreference = iphonesimulator3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CustomAlert */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CustomAlert */,
+		);
+		codeSenseManager = 1FCCDBD11138094000392A89 /* Code sense */;
+		executables = (
+			1FCCDBC31138093500392A89 /* CustomAlert */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					866,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					767,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 289401267;
+			PBXWorkspaceStateSaveDate = 289401267;
+		};
+		perUserProjectItems = {
+			1F6820B6113EFDEB00807BA7 /* PlistBookmark */ = 1F6820B6113EFDEB00807BA7 /* PlistBookmark */;
+			1F682120113FEAB700807BA7 /* PBXTextBookmark */ = 1F682120113FEAB700807BA7 /* PBXTextBookmark */;
+			1F682122113FEDF200807BA7 /* PBXTextBookmark */ = 1F682122113FEDF200807BA7 /* PBXTextBookmark */;
+			1FA07D96113C945A00F3B566 /* PBXTextBookmark */ = 1FA07D96113C945A00F3B566 /* PBXTextBookmark */;
+			1FCCDBD911380A6D00392A89 /* PBXBookmark */ = 1FCCDBD911380A6D00392A89 /* PBXBookmark */;
+			1FCCDBDA11380A6D00392A89 /* PBXTextBookmark */ = 1FCCDBDA11380A6D00392A89 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FCCDBD01138094000392A89 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

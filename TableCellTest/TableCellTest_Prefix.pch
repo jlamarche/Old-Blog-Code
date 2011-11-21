@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'TableCellTest' target in the 'TableCellTest' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "ConstantsAndMacros.h"
+#endif

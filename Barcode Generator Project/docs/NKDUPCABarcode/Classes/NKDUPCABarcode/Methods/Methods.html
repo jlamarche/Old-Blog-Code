@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>Methods</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">Methods</font></h1><hr><br>
+<a name="//apple_ref/occ/instm/NKDUPCABarcode/barcode"></a>
+<h3><a name="barcode">barcode</a></h3>
+<b>Abstract:</b> Overridden to reverse character parity for second half of content and to place the center guard bars
+
+<blockquote><pre><tt>- (NSString *)<B>barcode;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String of 0s and 1s that represent the encoded content, excluding initiator and terminator
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDUPCABarcode/caption"></a>
+<h3><a name="caption">caption</a></h3>
+<b>Abstract:</b> Overridden to shift characters around the center guard bars
+
+<blockquote><pre><tt>- (NSString *)<B>caption;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String representing the encoded characters, formatted to appear correctly when drawn
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDUPCABarcode/generateChecksum"></a>
+<h3><a name="generateChecksum">generateChecksum</a></h3>
+<b>Abstract:</b> Overridden to generate UPC-A check digit
+
+<blockquote><pre><tt>- (void)<B>generateChecksum;</B> </tt><br>
+</pre></blockquote>
+<p>The algorithm is as follows, which is a slightly more complex modulus 10 algorithm:
+<br><br>
+Designate the rightmost character odd.
+Sum all of the characters in the odd positions and multiply the result by three.
+Sum all of the characters in the even positions
+Add the odd and even totals from steps two and three.
+Determine the smallest number that when added to the result from step four, will
+result in a multiple of 10. This is the check character.
+     </p>
+<hr>
+<a name="//apple_ref/occ/instm/NKDUPCABarcode/initWithContent:printsCaption"></a>
+<h3><a name="initWithContent:printsCaption">initWithContent:printsCaption</a></h3>
+<b>Abstract:</b> Overrides constructor to set barwidth, calculate check digit (if not provided), and set height
+
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString *)inContent
+      <I></I> <B>printsCaption:</B>(BOOL)<I>inPrints;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inContent</tt></td><td>A string containing the data to be encoded; should use only <B>ASCII-8</B> characters
+(those that can be encoded using a single char in UTF-8)</td></tr>
+<tr><td align="center"><tt>inPrints</tt></td><td>YES if caption should print.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Initialized UPC-A barcode object
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDUPCABarcode/isContentValid"></a>
+<h3><a name="isContentValid">isContentValid</a></h3>
+<b>Abstract:</b> Validates that this barcode supports the data it is encoding.
+
+<blockquote><pre><tt>- (BOOL)<B>isContentValid;</B> </tt><br>
+</pre></blockquote>
+<p>Enforces numerics only and length of content; does not validate check digit.
+</p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

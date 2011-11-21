@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* Simple_PlayerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 623}}";
+			sepNavSelRange = "{224, 0}";
+			sepNavVisRange = "{0, 637}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Simple Player */ = {
+		activeExec = 0;
+		executables = (
+			1FB9755610AF555100E25A99 /* Simple Player */,
+		);
+	};
+	1F36472510B59D38000DC58A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB9776D10B0789600E25A99 /* MPMediaItemCollection-Utils.m */;
+		name = "MPMediaItemCollection-Utils.m: 62";
+		rLen = 0;
+		rLoc = 1883;
+		rType = 0;
+		vrLen = 2612;
+		vrLoc = 715;
+	};
+	1F44C10911049628001F7ECB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Simple_PlayerAppDelegate.m */;
+		name = "Simple_PlayerAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 0;
+	};
+	1FB9755610AF555100E25A99 /* Simple Player */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Simple Player";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1FB9756210AF555B00E25A99 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "More iPhone Development";
+			};
+		};
+	};
+	1FB9756310AF555B00E25A99 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FB975C510AF5D4600E25A99 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Simple_Player-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/jeff/Desktop/Simple Player/Simple_Player-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1FB9776C10B0789600E25A99 /* MPMediaItemCollection-Utils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1121, 995}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{0, 2385}";
+		};
+	};
+	1FB9776D10B0789600E25A99 /* MPMediaItemCollection-Utils.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1121, 1300}}";
+			sepNavSelRange = "{1883, 0}";
+			sepNavVisRange = "{715, 2612}";
+		};
+	};
+	1FCE2C3510B33737009B0B4E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FCE2C3610B33737009B0B4E /* MPMediaItem.h */;
+		name = "MPMediaItem.h: 25";
+		rLen = 11;
+		rLoc = 562;
+		rType = 0;
+		vrLen = 3769;
+		vrLoc = 0;
+	};
+	1FCE2C3610B33737009B0B4E /* MPMediaItem.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MPMediaItem.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMediaItem.h;
+		sourceTree = "<absolute>";
+	};
+	1FCE2C3710B33737009B0B4E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1FB975FA10AF5FBA00E25A99 /* nexttrack.png */;
+	};
+	1FCE2C3810B33737009B0B4E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1FEF471710B1B47900E329C7 /* remove.png */;
+	};
+	1FCE2DCD10B3553F009B0B4E /* Simple_PlayerViewController.m:264 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* Simple_PlayerViewController.m */;
+		functionName = "-tableView:didSelectRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 264;
+		modificationTime = 280526492.486142;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	1FCE2DD910B355AA009B0B4E /* Simple_PlayerViewController.m:196 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* Simple_PlayerViewController.m */;
+		functionName = "-nowPlayingItemChanged:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 196;
+		modificationTime = 280526492.485585;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1FD44C9C10CDB51300F89873 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Simple_PlayerViewController.h */;
+		name = "Simple_PlayerViewController.h: 1";
+		rLen = 1203;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 0;
+	};
+	1FD44CB010CDDD3300F89873 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Simple_PlayerViewController.m */;
+		name = "Simple_PlayerViewController.m: 263";
+		rLen = 1;
+		rLoc = 9611;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 9367;
+	};
+	1FD44CB210CDDD3300F89873 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Simple_PlayerAppDelegate.m */;
+		name = "Simple_PlayerAppDelegate.m: 8";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 0;
+	};
+	1FE63A9610B5D0E700E8F27E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB9776C10B0789600E25A99 /* MPMediaItemCollection-Utils.h */;
+		name = "MPMediaItemCollection-Utils.h: 13";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 2385;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* Simple_PlayerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 906}}";
+			sepNavSelRange = "{0, 1203}";
+			sepNavVisRange = "{0, 1203}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Simple_PlayerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 5712}}";
+			sepNavSelRange = "{3845, 0}";
+			sepNavVisRange = "{3888, 432}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FB9755610AF555100E25A99 /* Simple Player */;
+		activeSDKPreference = iphoneos3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Simple Player */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Simple Player */,
+		);
+		breakpoints = (
+			1FCE2DCD10B3553F009B0B4E /* Simple_PlayerViewController.m:264 */,
+			1FCE2DD910B355AA009B0B4E /* Simple_PlayerViewController.m:196 */,
+		);
+		codeSenseManager = 1FB9756310AF555B00E25A99 /* Code sense */;
+		executables = (
+			1FB9755610AF555100E25A99 /* Simple Player */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					10,
+					20,
+					10,
+					10,
+					10,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					595.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					665,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 285513243;
+			PBXWorkspaceStateSaveDate = 285513243;
+		};
+		perUserProjectItems = {
+			1F36472510B59D38000DC58A /* PBXTextBookmark */ = 1F36472510B59D38000DC58A /* PBXTextBookmark */;
+			1F44C10911049628001F7ECB /* PBXTextBookmark */ = 1F44C10911049628001F7ECB /* PBXTextBookmark */;
+			1FB975C510AF5D4600E25A99 /* PlistBookmark */ = 1FB975C510AF5D4600E25A99 /* PlistBookmark */;
+			1FCE2C3510B33737009B0B4E /* PBXTextBookmark */ = 1FCE2C3510B33737009B0B4E /* PBXTextBookmark */;
+			1FCE2C3710B33737009B0B4E /* PBXBookmark */ = 1FCE2C3710B33737009B0B4E /* PBXBookmark */;
+			1FCE2C3810B33737009B0B4E /* PBXBookmark */ = 1FCE2C3810B33737009B0B4E /* PBXBookmark */;
+			1FD44C9C10CDB51300F89873 /* PBXTextBookmark */ = 1FD44C9C10CDB51300F89873 /* PBXTextBookmark */;
+			1FD44CB010CDDD3300F89873 /* PBXTextBookmark */ = 1FD44CB010CDDD3300F89873 /* PBXTextBookmark */;
+			1FD44CB210CDDD3300F89873 /* PBXTextBookmark */ = 1FD44CB210CDDD3300F89873 /* PBXTextBookmark */;
+			1FE63A9610B5D0E700E8F27E /* PBXTextBookmark */ = 1FE63A9610B5D0E700E8F27E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FB9756210AF555B00E25A99 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

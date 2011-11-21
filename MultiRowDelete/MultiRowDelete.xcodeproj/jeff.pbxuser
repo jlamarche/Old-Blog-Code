@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 845}}";
+			sepNavSelRange = "{549, 0}";
+			sepNavVisRange = "{0, 556}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 845}}";
+			sepNavSelRange = "{685, 0}";
+			sepNavVisRange = "{0, 691}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MultiRowDelete */ = {
+		activeExec = 0;
+		executables = (
+			1FC151450EB391090050FF15 /* MultiRowDelete */,
+		);
+	};
+	1FC151450EB391090050FF15 /* MultiRowDelete */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MultiRowDelete;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1FC151550EB391270050FF15 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1FC151560EB391270050FF15 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FC151570EB3912E0050FF15 /* countries.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 3514}}";
+			sepNavSelRange = "{80, 0}";
+			sepNavVisRange = "{26, 680}";
+		};
+	};
+	1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 714}}";
+			sepNavSelRange = "{649, 2}";
+			sepNavVisRange = "{43, 413}";
+		};
+	};
+	1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 2338}}";
+			sepNavSelRange = "{223, 0}";
+			sepNavVisRange = "{223, 1676}";
+		};
+	};
+	1FC1517C0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151570EB3912E0050FF15 /* countries.txt */;
+		name = "countries.txt: 8";
+		rLen = 0;
+		rLoc = 80;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 26;
+	};
+	1FC151810EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151570EB3912E0050FF15 /* countries.txt */;
+		name = "countries.txt: 8";
+		rLen = 0;
+		rLoc = 80;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 26;
+	};
+	1FC151820EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	1FC151830EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 660;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 0;
+	};
+	1FC151840EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 10";
+		rLen = 0;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	1FC151850EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	1FC151860EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 640;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 0;
+	};
+	1FC151870EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 0;
+	};
+	1FC151880EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 660;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
+	};
+	1FC151890EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	1FC1518A0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 660;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 0;
+	};
+	1FC1518B0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1636;
+		vrLoc = 0;
+	};
+	1FC1518C0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	1FC1518D0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 111";
+		rLen = 0;
+		rLoc = 4454;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 1437;
+	};
+	1FC1518E0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	1FC1518F0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 19";
+		rLen = 0;
+		rLoc = 2289;
+		rType = 0;
+		vrLen = 1583;
+		vrLoc = 173;
+	};
+	1FC151900EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 17";
+		rLen = 0;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 0;
+	};
+	1FC151910EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 43";
+		rLen = 0;
+		rLoc = 3877;
+		rType = 0;
+		vrLen = 1703;
+		vrLoc = 107;
+	};
+	1FC151920EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	1FC151930EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	1FC151940EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 0;
+	};
+	1FC151950EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 0;
+	};
+	1FC151960EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 351;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 0;
+	};
+	1FC151970EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 0;
+	};
+	1FC151980EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 0;
+	};
+	1FC151990EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 18";
+		rLen = 0;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	1FC1519A0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	1FC1519B0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 18";
+		rLen = 0;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	1FC1519C0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 351;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	1FC1519D0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	1FC1519E0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	1FC1519F0EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 20";
+		rLen = 0;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	1FC151A00EB398F80050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
+	};
+	1FC151A70EB3998A0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 0;
+	};
+	1FC151A90EB3998A0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 20";
+		rLen = 0;
+		rLoc = 1356;
+		rType = 0;
+		vrLen = 1802;
+		vrLoc = 65;
+	};
+	1FC151AA0EB3998A0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	1FC151AB0EB3998A0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 18";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 0;
+	};
+	1FC151AC0EB3998A0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiRowDeleteAppDelegate.h */;
+		name = "MultiRowDeleteAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 556;
+		vrLoc = 0;
+	};
+	1FC151B50EB39A560050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	1FC151B70EB39A560050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiRowDeleteAppDelegate.m */;
+		name = "MultiRowDeleteAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	1FC151B80EB39A560050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 20";
+		rLen = 0;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	1FC151C60EB39C030050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 60";
+		rLen = 0;
+		rLoc = 2839;
+		rType = 0;
+		vrLen = 1966;
+		vrLoc = 296;
+	};
+	1FC151C70EB39C030050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 23";
+		rLen = 14;
+		rLoc = 868;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 0;
+	};
+	1FC151E00EB39DA50050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 48";
+		rLen = 0;
+		rLoc = 2547;
+		rType = 0;
+		vrLen = 1980;
+		vrLoc = 407;
+	};
+	1FC151E10EB39DA50050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 23";
+		rLen = 0;
+		rLoc = 827;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	1FC151E20EB39DA50050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 15";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 1770;
+		vrLoc = 0;
+	};
+	1FC151E30EB39DA50050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 23";
+		rLen = 0;
+		rLoc = 827;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 0;
+	};
+	1FC151EA0EB39EE20050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 68";
+		rLen = 0;
+		rLoc = 2839;
+		rType = 0;
+		vrLen = 1794;
+		vrLoc = 933;
+	};
+	1FC151F00EB39F210050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 11";
+		rLen = 17;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 0;
+	};
+	1FC152010EB3A08B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 73";
+		rLen = 0;
+		rLoc = 2900;
+		rType = 0;
+		vrLen = 1968;
+		vrLoc = 933;
+	};
+	1FC152020EB3A08B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	1FC152030EB3A08B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 73";
+		rLen = 0;
+		rLoc = 2900;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 964;
+	};
+	1FC152040EB3A08B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 14";
+		rLen = 18;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	1FC1520D0EB3A0C40050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 66";
+		rLen = 0;
+		rLoc = 2839;
+		rType = 0;
+		vrLen = 2051;
+		vrLoc = 964;
+	};
+	1FC152150EB3A0F10050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	1FC152160EB3A0F10050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 81";
+		rLen = 0;
+		rLoc = 3554;
+		rType = 0;
+		vrLen = 2030;
+		vrLoc = 964;
+	};
+	1FC152170EB3A0F10050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	1FC152310EB3A2360050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 76";
+		rLen = 0;
+		rLoc = 2900;
+		rType = 0;
+		vrLen = 1950;
+		vrLoc = 1346;
+	};
+	1FC152320EB3A2360050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 15";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 975;
+		vrLoc = 0;
+	};
+	1FC1525F0EB3A5490050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 114";
+		rLen = 0;
+		rLoc = 3881;
+		rType = 0;
+		vrLen = 2169;
+		vrLoc = 1642;
+	};
+	1FC152600EB3A5490050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 0;
+	};
+	1FC152610EB3A5490050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 82";
+		rLen = 0;
+		rLoc = 3273;
+		rType = 0;
+		vrLen = 2042;
+		vrLoc = 1470;
+	};
+	1FC152620EB3A5490050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 0;
+	};
+	1FC152680EB3A5A50050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 81";
+		rLen = 0;
+		rLoc = 3247;
+		rType = 0;
+		vrLen = 2161;
+		vrLoc = 1473;
+	};
+	1FC152690EB3A5A50050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 12";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	1FC152730EB3A81B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 93";
+		rLen = 0;
+		rLoc = 3832;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 275;
+	};
+	1FC152740EB3A81B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 35";
+		rLen = 21;
+		rLoc = 1077;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 0;
+	};
+	1FC152750EB3A81B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 51";
+		rLen = 30;
+		rLoc = 1416;
+		rType = 0;
+		vrLen = 1680;
+		vrLoc = 619;
+	};
+	1FC152760EB3A81B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 36";
+		rLen = 0;
+		rLoc = 1129;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 0;
+	};
+	1FC152770EB3A81B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 51";
+		rLen = 30;
+		rLoc = 1416;
+		rType = 0;
+		vrLen = 1680;
+		vrLoc = 619;
+	};
+	1FC152780EB3A81B0050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 34";
+		rLen = 0;
+		rLoc = 1045;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 0;
+	};
+	1FC1527D0EB3A8280050FF15 /* MultiRowDeleteTableViewController.m:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		functionName = "-doDelete";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 22;
+		location = MultiRowDelete;
+		modificationTime = 246655405.082146;
+		state = 1;
+	};
+	1FC152830EB3A9040050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 35";
+		rLen = 69;
+		rLoc = 940;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 0;
+	};
+	1FC152840EB3A9040050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 24";
+		rLen = 0;
+		rLoc = 622;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 62;
+	};
+	1FC152850EB3A9040050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 24";
+		rLen = 0;
+		rLoc = 622;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 62;
+	};
+	1FC152860EB3A9040050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 35";
+		rLen = 69;
+		rLoc = 940;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 0;
+	};
+	1FC152C90EB3AA880050FF15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 10";
+		rLen = 0;
+		rLoc = 223;
+		rType = 0;
+		vrLen = 1676;
+		vrLoc = 223;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FC151450EB391090050FF15 /* MultiRowDelete */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MultiRowDelete */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MultiRowDelete */,
+		);
+		breakpoints = (
+			1FC1527D0EB3A8280050FF15 /* MultiRowDeleteTableViewController.m:22 */,
+		);
+		codeSenseManager = 1FC151560EB391270050FF15 /* Code sense */;
+		executables = (
+			1FC151450EB391090050FF15 /* MultiRowDelete */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1011,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 246649097;
+			PBXWorkspaceStateSaveDate = 246649097;
+		};
+		perUserProjectItems = {
+			1FC1517C0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1517C0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151810EB398F80050FF15 /* PBXTextBookmark */ = 1FC151810EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151820EB398F80050FF15 /* PBXTextBookmark */ = 1FC151820EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151830EB398F80050FF15 /* PBXTextBookmark */ = 1FC151830EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151840EB398F80050FF15 /* PBXTextBookmark */ = 1FC151840EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151850EB398F80050FF15 /* PBXTextBookmark */ = 1FC151850EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151860EB398F80050FF15 /* PBXTextBookmark */ = 1FC151860EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151870EB398F80050FF15 /* PBXTextBookmark */ = 1FC151870EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151880EB398F80050FF15 /* PBXTextBookmark */ = 1FC151880EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151890EB398F80050FF15 /* PBXTextBookmark */ = 1FC151890EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1518A0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1518A0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1518B0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1518B0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1518C0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1518C0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1518D0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1518D0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1518E0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1518E0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1518F0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1518F0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151900EB398F80050FF15 /* PBXTextBookmark */ = 1FC151900EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151910EB398F80050FF15 /* PBXTextBookmark */ = 1FC151910EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151920EB398F80050FF15 /* PBXTextBookmark */ = 1FC151920EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151930EB398F80050FF15 /* PBXTextBookmark */ = 1FC151930EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151940EB398F80050FF15 /* PBXTextBookmark */ = 1FC151940EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151950EB398F80050FF15 /* PBXTextBookmark */ = 1FC151950EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151960EB398F80050FF15 /* PBXTextBookmark */ = 1FC151960EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151970EB398F80050FF15 /* PBXTextBookmark */ = 1FC151970EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151980EB398F80050FF15 /* PBXTextBookmark */ = 1FC151980EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151990EB398F80050FF15 /* PBXTextBookmark */ = 1FC151990EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1519A0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1519A0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1519B0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1519B0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1519C0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1519C0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1519D0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1519D0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1519E0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1519E0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC1519F0EB398F80050FF15 /* PBXTextBookmark */ = 1FC1519F0EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151A00EB398F80050FF15 /* PBXTextBookmark */ = 1FC151A00EB398F80050FF15 /* PBXTextBookmark */;
+			1FC151A70EB3998A0050FF15 /* PBXTextBookmark */ = 1FC151A70EB3998A0050FF15 /* PBXTextBookmark */;
+			1FC151A90EB3998A0050FF15 /* PBXTextBookmark */ = 1FC151A90EB3998A0050FF15 /* PBXTextBookmark */;
+			1FC151AA0EB3998A0050FF15 /* PBXTextBookmark */ = 1FC151AA0EB3998A0050FF15 /* PBXTextBookmark */;
+			1FC151AB0EB3998A0050FF15 /* PBXTextBookmark */ = 1FC151AB0EB3998A0050FF15 /* PBXTextBookmark */;
+			1FC151AC0EB3998A0050FF15 /* PBXTextBookmark */ = 1FC151AC0EB3998A0050FF15 /* PBXTextBookmark */;
+			1FC151B50EB39A560050FF15 /* PBXTextBookmark */ = 1FC151B50EB39A560050FF15 /* PBXTextBookmark */;
+			1FC151B70EB39A560050FF15 /* PBXTextBookmark */ = 1FC151B70EB39A560050FF15 /* PBXTextBookmark */;
+			1FC151B80EB39A560050FF15 /* PBXTextBookmark */ = 1FC151B80EB39A560050FF15 /* PBXTextBookmark */;
+			1FC151C60EB39C030050FF15 /* PBXTextBookmark */ = 1FC151C60EB39C030050FF15 /* PBXTextBookmark */;
+			1FC151C70EB39C030050FF15 /* PBXTextBookmark */ = 1FC151C70EB39C030050FF15 /* PBXTextBookmark */;
+			1FC151E00EB39DA50050FF15 /* PBXTextBookmark */ = 1FC151E00EB39DA50050FF15 /* PBXTextBookmark */;
+			1FC151E10EB39DA50050FF15 /* PBXTextBookmark */ = 1FC151E10EB39DA50050FF15 /* PBXTextBookmark */;
+			1FC151E20EB39DA50050FF15 /* PBXTextBookmark */ = 1FC151E20EB39DA50050FF15 /* PBXTextBookmark */;
+			1FC151E30EB39DA50050FF15 /* PBXTextBookmark */ = 1FC151E30EB39DA50050FF15 /* PBXTextBookmark */;
+			1FC151EA0EB39EE20050FF15 /* PBXTextBookmark */ = 1FC151EA0EB39EE20050FF15 /* PBXTextBookmark */;
+			1FC151F00EB39F210050FF15 /* PBXTextBookmark */ = 1FC151F00EB39F210050FF15 /* PBXTextBookmark */;
+			1FC152010EB3A08B0050FF15 /* PBXTextBookmark */ = 1FC152010EB3A08B0050FF15 /* PBXTextBookmark */;
+			1FC152020EB3A08B0050FF15 /* PBXTextBookmark */ = 1FC152020EB3A08B0050FF15 /* PBXTextBookmark */;
+			1FC152030EB3A08B0050FF15 /* PBXTextBookmark */ = 1FC152030EB3A08B0050FF15 /* PBXTextBookmark */;
+			1FC152040EB3A08B0050FF15 /* PBXTextBookmark */ = 1FC152040EB3A08B0050FF15 /* PBXTextBookmark */;
+			1FC1520D0EB3A0C40050FF15 /* PBXTextBookmark */ = 1FC1520D0EB3A0C40050FF15 /* PBXTextBookmark */;
+			1FC152150EB3A0F10050FF15 /* PBXTextBookmark */ = 1FC152150EB3A0F10050FF15 /* PBXTextBookmark */;
+			1FC152160EB3A0F10050FF15 /* PBXTextBookmark */ = 1FC152160EB3A0F10050FF15 /* PBXTextBookmark */;
+			1FC152170EB3A0F10050FF15 /* PBXTextBookmark */ = 1FC152170EB3A0F10050FF15 /* PBXTextBookmark */;
+			1FC152310EB3A2360050FF15 /* PBXTextBookmark */ = 1FC152310EB3A2360050FF15 /* PBXTextBookmark */;
+			1FC152320EB3A2360050FF15 /* PBXTextBookmark */ = 1FC152320EB3A2360050FF15 /* PBXTextBookmark */;
+			1FC1525F0EB3A5490050FF15 /* PBXTextBookmark */ = 1FC1525F0EB3A5490050FF15 /* PBXTextBookmark */;
+			1FC152600EB3A5490050FF15 /* PBXTextBookmark */ = 1FC152600EB3A5490050FF15 /* PBXTextBookmark */;
+			1FC152610EB3A5490050FF15 /* PBXTextBookmark */ = 1FC152610EB3A5490050FF15 /* PBXTextBookmark */;
+			1FC152620EB3A5490050FF15 /* PBXTextBookmark */ = 1FC152620EB3A5490050FF15 /* PBXTextBookmark */;
+			1FC152680EB3A5A50050FF15 /* PBXTextBookmark */ = 1FC152680EB3A5A50050FF15 /* PBXTextBookmark */;
+			1FC152690EB3A5A50050FF15 /* PBXTextBookmark */ = 1FC152690EB3A5A50050FF15 /* PBXTextBookmark */;
+			1FC152730EB3A81B0050FF15 /* PBXTextBookmark */ = 1FC152730EB3A81B0050FF15 /* PBXTextBookmark */;
+			1FC152740EB3A81B0050FF15 /* PBXTextBookmark */ = 1FC152740EB3A81B0050FF15 /* PBXTextBookmark */;
+			1FC152750EB3A81B0050FF15 /* PBXTextBookmark */ = 1FC152750EB3A81B0050FF15 /* PBXTextBookmark */;
+			1FC152760EB3A81B0050FF15 /* PBXTextBookmark */ = 1FC152760EB3A81B0050FF15 /* PBXTextBookmark */;
+			1FC152770EB3A81B0050FF15 /* PBXTextBookmark */ = 1FC152770EB3A81B0050FF15 /* PBXTextBookmark */;
+			1FC152780EB3A81B0050FF15 /* PBXTextBookmark */ = 1FC152780EB3A81B0050FF15 /* PBXTextBookmark */;
+			1FC152830EB3A9040050FF15 /* PBXTextBookmark */ = 1FC152830EB3A9040050FF15 /* PBXTextBookmark */;
+			1FC152840EB3A9040050FF15 /* PBXTextBookmark */ = 1FC152840EB3A9040050FF15 /* PBXTextBookmark */;
+			1FC152850EB3A9040050FF15 /* PBXTextBookmark */ = 1FC152850EB3A9040050FF15 /* PBXTextBookmark */;
+			1FC152860EB3A9040050FF15 /* PBXTextBookmark */ = 1FC152860EB3A9040050FF15 /* PBXTextBookmark */;
+			1FC152C90EB3AA880050FF15 /* PBXTextBookmark */ = 1FC152C90EB3AA880050FF15 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FC151550EB391270050FF15 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

@@ -1,0 +1,4 @@
+/* This localizable file contains text displayed in dialog boxes */
+"Oops..." = "Oops...";
+"OK" = "OK";
+"I'm sorry, the selected barcode type can't encode the specified data" = "I'm sorry, the selected barcode type can't encode the specified data";

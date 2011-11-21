@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDModifiedPlesseyBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDModifiedPlesseyBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This is an encoder for the Plessey Code. According to the Plessy Code
+Specification, numeric digits are assigned a set value, but the remaining values
+can be used for whatever values are desired. This subclass adds the ability
+to encode the letters A through F for full hexadecimal support.
+<br><br>
+<CODE>Wide bar followed by narrow space is a "1" bit.<BR>
+Narrow bar followed by wide space is a "O" bit.</CODE>
+<br><br>
+We will use a 3:1 wide to narrow bar ratio.
+<br><br>
+<CENTER><HR>
+THIS IS NOT GUARANTEED TO PRODUCE A BARCODE THAT IS IN COMPLIANCE WITH THE SPECIFICATION.<BR>
+== USE AT YOUR OWN RISK ==
+<HR></CENTER>
+<br><br>
+ <hr><br><h2>#defines</h2>
+<h3><a name="ONE_BIT">ONE_BIT</a></h3>
+<blockquote><pre>
+#define ONE_BIT @"1110"
+</pre>
+</blockquote>
+<p>Plessey encodes data in binary form. A '1' is encoded as a wide bar followed by
+a narrow space. For this framework, this is represented by the string "1110"
+ </p>
+<hr>
+<h3><a name="ZERO_BIT">ZERO_BIT</a></h3>
+<blockquote><pre>
+#define ZERO_BIT @"1000"
+</pre>
+</blockquote>
+<p>Plessey encodes data in binary form. A '0' is encoded as a narrow bar followed by
+a wide space. For this framework, this is represented by the string "1000"
+ </p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

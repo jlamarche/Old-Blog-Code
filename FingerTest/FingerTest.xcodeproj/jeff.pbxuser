@@ -1,0 +1,153 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FingerTest */ = {
+		activeExec = 0;
+		executables = (
+			1F4491B41182189C00A8F0EC /* FingerTest */,
+		);
+	};
+	1F4491B41182189C00A8F0EC /* FingerTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FingerTest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F4491C6118218A600A8F0EC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F4491C7118218A600A8F0EC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F4491EA11821A3800A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* FingerTestViewController.h */;
+		name = "FingerTestViewController.h: 4";
+		rLen = 0;
+		rLoc = 51;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 0;
+	};
+	1F4491EB11821A3800A8F0EC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FingerTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/jeff/Desktop/FingerTest/FingerTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	1F4491F011821AA700A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FingerTestViewController.m */;
+		name = "FingerTestViewController.m: 32";
+		rLen = 0;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 425;
+	};
+	1F4491F211821AC800A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FingerTestViewController.m */;
+		name = "FingerTestViewController.m: 32";
+		rLen = 0;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	28D7ACF60DDB3853001CB0EB /* FingerTestViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 626}}";
+			sepNavSelRange = "{51, 0}";
+			sepNavVisRange = "{0, 313}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* FingerTestViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 626}}";
+			sepNavSelRange = "{700, 0}";
+			sepNavVisRange = "{0, 990}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F4491B41182189C00A8F0EC /* FingerTest */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FingerTest */;
+		codeSenseManager = 1F4491C7118218A600A8F0EC /* Code sense */;
+		executables = (
+			1F4491B41182189C00A8F0EC /* FingerTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293738883;
+			PBXWorkspaceStateSaveDate = 293738883;
+		};
+		perUserProjectItems = {
+			1F4491EA11821A3800A8F0EC /* PBXTextBookmark */ = 1F4491EA11821A3800A8F0EC /* PBXTextBookmark */;
+			1F4491EB11821A3800A8F0EC /* PlistBookmark */ = 1F4491EB11821A3800A8F0EC /* PlistBookmark */;
+			1F4491F011821AA700A8F0EC /* PBXTextBookmark */ = 1F4491F011821AA700A8F0EC /* PBXTextBookmark */;
+			1F4491F211821AC800A8F0EC /* PBXTextBookmark */ = 1F4491F211821AC800A8F0EC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F4491C6118218A600A8F0EC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

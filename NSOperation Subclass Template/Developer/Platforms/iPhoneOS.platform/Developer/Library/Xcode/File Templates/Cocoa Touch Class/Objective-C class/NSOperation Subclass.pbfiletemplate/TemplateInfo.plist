@@ -1,0 +1,5 @@
+{
+	MainTemplateFile = "class.m";
+	"CounterpartTemplateFile" = "class.h";
+	Description = "An Objective-C class which is a subclass of NSOperation, intended to be used in an NSOperationQueue";
+}

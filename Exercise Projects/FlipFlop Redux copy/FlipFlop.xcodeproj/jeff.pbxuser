@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FlipFlopAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 424}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 459}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FlipFlopAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 701}}";
+			sepNavSelRange = "{516, 0}";
+			sepNavVisRange = "{0, 618}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FlipFlop */ = {
+		activeExec = 0;
+		executables = (
+			1F00703B1031B15F0009021D /* FlipFlop */,
+		);
+	};
+	1F00703B1031B15F0009021D /* FlipFlop */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FlipFlop;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F0070471031B16F0009021D /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 1017}}";
+			sepNavSelRange = "{597, 0}";
+			sepNavVisRange = "{0, 674}";
+		};
+	};
+	1F0070481031B16F0009021D /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 1785}}";
+			sepNavSelRange = "{629, 0}";
+			sepNavVisRange = "{447, 811}";
+		};
+	};
+	1F00704C1031B16F0009021D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F00704D1031B16F0009021D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F00704E1031B18B0009021D /* LoveViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {596, 517}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 221}";
+		};
+	};
+	1F0070531031B1970009021D /* HateViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 424}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 221}";
+		};
+	};
+	1F0070541031B1970009021D /* HateViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1381}";
+		};
+	};
+	1F0070641031BC7D0009021D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0070531031B1970009021D /* HateViewController.h */;
+		name = "HateViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	1F00706B1031BFBC0009021D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FlipFlopAppDelegate.h */;
+		name = "FlipFlopAppDelegate.h: 12";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	1F0070C91031C8A60009021D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F00704E1031B18B0009021D /* LoveViewController.h */;
+		name = "LoveViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	1F0071301031D6890009021D /* ModalViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1206, 701}}";
+			sepNavSelRange = "{213, 0}";
+			sepNavVisRange = "{0, 242}";
+		};
+	};
+	1F0071311031D6890009021D /* ModalViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 756}}";
+			sepNavSelRange = "{604, 0}";
+			sepNavVisRange = "{0, 644}";
+		};
+	};
+	1F0071691031E2840009021D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0070541031B1970009021D /* HateViewController.m */;
+		name = "HateViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1381;
+		vrLoc = 0;
+	};
+	1F1C164E1031EBD70044BE41 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FlipFlopAppDelegate.m */;
+		name = "FlipFlopAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 618;
+		vrLoc = 0;
+	};
+	1F1C16521031EC260044BE41 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0071301031D6890009021D /* ModalViewController.h */;
+		name = "ModalViewController.h: 12";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	1F1C1661103202F10044BE41 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0070471031B16F0009021D /* RootViewController.h */;
+		name = "RootViewController.h: 19";
+		rLen = 0;
+		rLoc = 597;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 0;
+	};
+	1F84F25C10CB05FF00AE628B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FlipFlop-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/jeff/Documents/iPhone Workshop/Exercise Projects/FlipFlop Redux copy/FlipFlop-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	1F84F25D10CB05FF00AE628B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0071311031D6890009021D /* ModalViewController.m */;
+		name = "ModalViewController.m: 29";
+		rLen = 0;
+		rLoc = 604;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 0;
+	};
+	1F84F27C10CB074F00AE628B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0070481031B16F0009021D /* RootViewController.m */;
+		name = "RootViewController.m: 26";
+		rLen = 0;
+		rLoc = 629;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 535;
+	};
+	1F84F29310CB14DD00AE628B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F0070481031B16F0009021D /* RootViewController.m */;
+		name = "RootViewController.m: 26";
+		rLen = 0;
+		rLoc = 629;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 447;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F00703B1031B15F0009021D /* FlipFlop */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FlipFlop */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FlipFlop */,
+		);
+		codeSenseManager = 1F00704D1031B16F0009021D /* Code sense */;
+		executables = (
+			1F00703B1031B15F0009021D /* FlipFlop */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 281740615;
+			PBXWorkspaceStateSaveDate = 281740615;
+		};
+		perUserProjectItems = {
+			1F0070641031BC7D0009021D /* PBXTextBookmark */ = 1F0070641031BC7D0009021D /* PBXTextBookmark */;
+			1F00706B1031BFBC0009021D /* PBXTextBookmark */ = 1F00706B1031BFBC0009021D /* PBXTextBookmark */;
+			1F0070C91031C8A60009021D /* PBXTextBookmark */ = 1F0070C91031C8A60009021D /* PBXTextBookmark */;
+			1F0071691031E2840009021D /* PBXTextBookmark */ = 1F0071691031E2840009021D /* PBXTextBookmark */;
+			1F1C164E1031EBD70044BE41 /* PBXTextBookmark */ = 1F1C164E1031EBD70044BE41 /* PBXTextBookmark */;
+			1F1C16521031EC260044BE41 /* PBXTextBookmark */ = 1F1C16521031EC260044BE41 /* PBXTextBookmark */;
+			1F1C1661103202F10044BE41 /* PBXTextBookmark */ = 1F1C1661103202F10044BE41 /* PBXTextBookmark */;
+			1F84F25C10CB05FF00AE628B /* PlistBookmark */ = 1F84F25C10CB05FF00AE628B /* PlistBookmark */;
+			1F84F25D10CB05FF00AE628B /* PBXTextBookmark */ = 1F84F25D10CB05FF00AE628B /* PBXTextBookmark */;
+			1F84F27C10CB074F00AE628B /* PBXTextBookmark */ = 1F84F27C10CB074F00AE628B /* PBXTextBookmark */;
+			1F84F29310CB14DD00AE628B /* PBXTextBookmark */ = 1F84F29310CB14DD00AE628B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F00704C1031B16F0009021D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

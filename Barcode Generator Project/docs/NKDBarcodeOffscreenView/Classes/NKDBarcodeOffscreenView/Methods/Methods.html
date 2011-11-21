@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>Methods</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">Methods</font></h1><hr><br>
+<a name="//apple_ref/occ/instm/NKDBarcodeOffscreenView/barcode"></a>
+<h3><a name="barcode">barcode</a></h3>
+<b>Abstract:</b> Accessor method for contained NKDBarcode object.
+
+<blockquote><pre><tt>- (NKDBarcode *)<B>barcode;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> The barcode object.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcodeOffscreenView/initWithBarcode:"></a>
+<h3><a name="initWithBarcode:">initWithBarcode:</a></h3>
+<b>Abstract:</b> Intialize the view with an NKDBarcode object.
+
+<blockquote><pre><tt>- (id)<B>initWithBarcode:</B>(NKDBarcode *)<I>inBarcode;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inBarcode</tt></td><td>The NKDBarcode to draw inside the view. The view will size itself to the bounds rectangle of
+the barcode.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Initialized view that draws the barcode.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcodeOffscreenView/knowsPageRange:"></a>
+<h3><a name="knowsPageRange:">knowsPageRange:</a></h3>
+<b>Abstract:</b> Override view behavior so that we can print barcodes in a resolution-dependent manner without creating a separate object.
+
+<blockquote><pre><tt>- (BOOL)<B>knowsPageRange:</B>(NSRange *)<I>rptr;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>rptr</tt></td><td>An NSRange that we will populate with the page range to be printed.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> YES to signify that we know our page range (a barcode will almost always fit on one page).
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcodeOffscreenView/rectForPage:"></a>
+<h3><a name="rectForPage:">rectForPage:</a></h3>
+<b>Abstract:</b> Override NSView behavior to specify the part of the view to print for this page.
+
+<blockquote><pre><tt>- (NSRect)<B>rectForPage:</B>(int)<I>pageNum;</I> </tt><br>
+</pre></blockquote>
+<p>We are making the (possibly erroneous) assumption that the barcode will print on a single page, so this
+will always return the view's bounds rect.
+</p>
+<b>Result:</b> The view's bounds rect, which will be equal to a rectangle of the barcode's size at the origin.
+ 
+<hr>
+<a name="//apple_ref/occ/instm/NKDBarcodeOffscreenView/setBarcode"></a>
+<h3><a name="setBarcode">setBarcode</a></h3>
+<b>Abstract:</b> Specifies an NKDBarcode that should be drawn
+ 
+<blockquote><pre><tt>- (void)<B>setBarcode:</B>(NKDBarcode *)<I>inBarcode;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

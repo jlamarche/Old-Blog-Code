@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDUPCEBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDUPCEBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This subclass implements the abbreviated form of the UPC symbol, the UPC-E which reduces the 12 characters
+of the UPC-A down to 8 (six characters, check digit encoded in parity of other digits). It is a subclass of
+NKDUPCABarcode beccause UPC-E does not have it's own check digit algorithm, rather the UPC-A check digit
+(calculated on all 12 digits of the original value) and number system are encoded in the parity order of
+the other six digits.
+ <hr><br><p>(Last Updated 4/21/2003)
+</p></body></html>

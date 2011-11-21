@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Cells */ = {
+		activeExec = 0;
+		executables = (
+			1F1624A810838840006050C9 /* Cells */,
+		);
+	};
+	1F1624A810838840006050C9 /* Cells */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Cells;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F1624BD10838862006050C9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:178)";
+		fRef = 1F3940830F99745200AB24F5 /* CustomCell.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 15;
+		rType = 1;
+	};
+	1F1624C910838862006050C9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "Beginning iPhone Development";
+			};
+		};
+	};
+	1F1624CA10838862006050C9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F1624D110838874006050C9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3940830F99745200AB24F5 /* CustomCell.m */;
+		name = "CustomCell.m: 16";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 20;
+	};
+	1F3940830F99745200AB24F5 /* CustomCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {806, 390}}";
+			sepNavSelRange = "{224, 0}";
+			sepNavVisRange = "{20, 469}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F1624A810838840006050C9 /* Cells */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Cells */;
+		codeSenseManager = 1F1624CA10838862006050C9 /* Code sense */;
+		executables = (
+			1F1624A810838840006050C9 /* Cells */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277055552;
+			PBXWorkspaceStateSaveDate = 277055552;
+		};
+		perUserProjectItems = {
+			1F1624BD10838862006050C9 /* XCBuildMessageTextBookmark */ = 1F1624BD10838862006050C9 /* XCBuildMessageTextBookmark */;
+			1F1624D110838874006050C9 /* PBXTextBookmark */ = 1F1624D110838874006050C9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F1624C910838862006050C9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

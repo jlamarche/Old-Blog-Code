@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDRoyalMailBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDRoyalMailBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This is a concrete subclass of NKDBarcode that implements a 4 state barcode that uses
+the <i>height</i> of the bars, rather than the width, to encode numeric data according to
+Royal Mail specifications.  This barcode is known as the Royal Mail Four-State Customer
+Code (RM4SCC) in some documentation, and as the Customer Barcode (CBC) in other documentation.
+<br><br>
+See documentation for Mailsort 700 for more details on this barcode format.  This barcode
+format is the same as that used in the Netherlands, and similar (possibly the same) as
+the format used on Australian mail.
+ <hr><br><h2>#defines</h2>
+<h3><a name="CBC_ASCENDER_TOP">CBC_ASCENDER_TOP</a></h3>
+<blockquote><pre>
+#define CBC_ASCENDER_TOP (1.9 + CBC_TRACK_TOP)
+</pre>
+</blockquote>
+<p>Defines the highest point of the ascender (in millimeters).
+ </p>
+<hr>
+<h3><a name="CBC_BAR_WIDTH">CBC_BAR_WIDTH</a></h3>
+<blockquote><pre>
+#define CBC_BAR_WIDTH (0.5)
+</pre>
+</blockquote>
+<p>Width, in millimeters, of a CBC bar.  Specifications allow a range: 0.38-0.63mm.
+ </p>
+<hr>
+<h3><a name="CBC_DESCENDER_BOTTOM">CBC_DESCENDER_BOTTOM</a></h3>
+<blockquote><pre>
+#define CBC_DESCENDER_BOTTOM (0.0)
+</pre>
+</blockquote>
+<p>Defines the lowest point of the descender (in millimeters).
+ </p>
+<hr>
+<h3><a name="CBC_INCHES_PER_MILLIMETER">CBC_INCHES_PER_MILLIMETER</a></h3>
+<blockquote><pre>
+#define CBC_INCHES_PER_MILLIMETER (1./25.4)
+</pre>
+</blockquote>
+<p>Number of inches per millimeter (1/25.4).
+ </p>
+<hr>
+<h3><a name="CBC_TRACK_BOTTOM">CBC_TRACK_BOTTOM</a></h3>
+<blockquote><pre>
+#define CBC_TRACK_BOTTOM (1.9 + CBC_DESCENDER_BOTTOM)
+</pre>
+</blockquote>
+<p>Defines the lower boundary of the track (in millimeters).
+ </p>
+<hr>
+<h3><a name="CBC_TRACK_TOP">CBC_TRACK_TOP</a></h3>
+<blockquote><pre>
+#define CBC_TRACK_TOP (1.25 + CBC_TRACK_BOTTOM)
+</pre>
+</blockquote>
+<p></p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

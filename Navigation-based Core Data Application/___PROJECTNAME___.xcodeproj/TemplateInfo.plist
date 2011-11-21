@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This template provides a starting point for a Core Data-based application that uses a navigation controller. It provides a user interface configured with a navigation controller to display a list of items managed by a fetched results controller.</string>
+</dict>
+</plist>

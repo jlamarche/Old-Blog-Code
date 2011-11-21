@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NSString(UPCEAN)</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NSString(UPCEAN)</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This category on NSString adds the instance methods needed by the various UPC and EAN barcode classes. Both of these methods were originally part of the NKDAbstractUPCEANBarcode class, but since they operate on NSStrings and never needs to be overridden, this seems a better fit, and also makes the code more readable
+ <hr><br><h2>Methods</h2>
+
+<h3><a name="swapHandedness">swapHandedness</a></h3>
+<b>Abstract:</b> Reverses encoded UPC or EAN character (represented as string of 0s and 1s) from left to right handed encoding - makes all bars gaps and all gaps bars
+
+<blockquote><pre><tt>- (NSString *)<B>swapHandedness;</B> </tt><br>
+</pre></blockquote>
+<p>In UPC & EAN different parity is used for different digits to allow encoding of additional values. This assumes that <code>self</code> is a string of 0s and 1s representing the bars and gaps of an encoded EAN or UPC character.
+</p>
+<b>Result:</b> String of 0s and 1s that is the polar opposite of inCode
+
+<hr>
+
+<h3><a name="swapParity">swapParity</a></h3>
+<b>Abstract:</b> Swaps parity of encoded UPC or EAN character from even to Odd.
+
+<blockquote><pre><tt>- (NSString *)<B>swapParity;</B> </tt><br>
+</pre></blockquote>
+<p>Assuming that parity concept is only used on the left hand side of EAN-13 and in EAN-8 and UPC-E. Right hand encoding for UPC-A and EAN-13 is always the same parity and UPC-A uses ODD_PARITY for all digits, so never has to call this. This assumes that <code>self</code> is a string of 0s and 1s representing the bars and gaps of an encoded EAN or UPC character.
+</p>
+<b>Result:</b> String of 0s and 1s that is the opposite handed encoding of inCode
+
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NSImage(Normalize)</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NSImage(Normalize)</font></h1><hr><br>
+<h2>Discussion</h2>
+This category adds two instance methods that operate on the resolution of an NSImage with at least one NSBitmapImageRep
+ <hr><br><h2>Methods</h2>
+
+<h3><a name="normalizeSize">normalizeSize</a></h3>
+<b>Abstract:</b> Normalize the resolution to 72 dpi in lossless fashion so that the image displays at full size onscreen.
+
+<blockquote><pre><tt>- (NSImage *)<B>normalizeSize;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> NSImage with the exact same data as the instance it is called on <i>except</i> that the resolution pixelHeight will be the same as the height and the pixelWidth will be the same as the width.
+ 
+<hr>
+
+<h3><a name="setDPI:">setDPI:</a></h3>
+<b>Abstract:</b> Allows you to adjust (in a lossless fashion) the resolution of the images NSBitmapImageRep (if it has one) to a given
+number of points per inch.
+
+<blockquote><pre><tt>- (NSImage *)<B>setDPI:</B>(int)<I>dpi;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>dpi</tt></td><td>Integer value representing the desired horizontal and vertical pixels per inch.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Self with the data unaltered except for the height and width (pixelHeight and pixelWidth remain unchanged) of the first NSBitmapRep the image contains.
+ 
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

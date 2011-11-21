@@ -1,0 +1,137 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* MultiRowDelete */ = {
+		activeExec = 0;
+		executables = (
+			1FF2A9691121F388001D55D3 /* MultiRowDelete */,
+		);
+	};
+	1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 906}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1135}";
+		};
+	};
+	1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 3528}}";
+			sepNavSelRange = "{1413, 0}";
+			sepNavVisRange = "{775, 1278}";
+		};
+	};
+	1FF2A9691121F388001D55D3 /* MultiRowDelete */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MultiRowDelete;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1FF2A9711121F3A6001D55D3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1FF2A9721121F3A6001D55D3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FF2A9751121F3CB001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC1515F0EB394990050FF15 /* MultiRowDeleteTableViewController.h */;
+		name = "MultiRowDeleteTableViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 0;
+	};
+	1FF2A9761121F3CB001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 16";
+		rLen = 16;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 1168;
+		vrLoc = 65;
+	};
+	1FF2A9771121F3CB001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FC151600EB394990050FF15 /* MultiRowDeleteTableViewController.m */;
+		name = "MultiRowDeleteTableViewController.m: 57";
+		rLen = 0;
+		rLoc = 1413;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 775;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FF2A9691121F388001D55D3 /* MultiRowDelete */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MultiRowDelete */;
+		codeSenseManager = 1FF2A9721121F3A6001D55D3 /* Code sense */;
+		executables = (
+			1FF2A9691121F388001D55D3 /* MultiRowDelete */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287437704;
+			PBXWorkspaceStateSaveDate = 287437704;
+		};
+		perUserProjectItems = {
+			1FF2A9751121F3CB001D55D3 /* PBXTextBookmark */ = 1FF2A9751121F3CB001D55D3 /* PBXTextBookmark */;
+			1FF2A9761121F3CB001D55D3 /* PBXTextBookmark */ = 1FF2A9761121F3CB001D55D3 /* PBXTextBookmark */;
+			1FF2A9771121F3CB001D55D3 /* PBXTextBookmark */ = 1FF2A9771121F3CB001D55D3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FF2A9711121F3A6001D55D3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDPostnetBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDPostnetBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This is a concrete subclass of NKDBarcode that implements a two of five barcode that uses the <i>height</i>
+of the bars, rather than the width, to encode numeric data according to US Postal Service specifications.
+<br><br>
+We are using a bar width of .015" and a gap space of .030" - this spacing is within the US Postal
+Service's specs and since the gap space is exactly twice the bar width, we can represent the gap
+with two zeros and represent all bars as one one. The real logic for this barcode is in the barTop
+method, which makes it a somewhat unusual subclass of NKDBarcode.
+ <hr><br><h2>#defines</h2>
+<h3><a name="SHORT_BAR">SHORT_BAR</a></h3>
+<blockquote><pre>
+#define SHORT_BAR .05
+</pre>
+</blockquote>
+<p>Defines the height, according to USPS specification, of a short bar
+ </p>
+<hr>
+<h3><a name="TALL_BAR">TALL_BAR</a></h3>
+<blockquote><pre>
+#define TALL_BAR .125
+</pre>
+</blockquote>
+<p>Defines the height, according to USPS specification, of a tall bar
+ </p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

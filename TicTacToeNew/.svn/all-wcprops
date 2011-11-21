@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/19/trunk/src/TicTacToeNew
+END
+TicTacToeViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/TicTacToeViewController.xib
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/main.m
+END
+O.png
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/O.png
+END
+TicTacToe-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/TicTacToe-Info.plist
+END
+device.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/device.png
+END
+button_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/button_pressed.png
+END
+TicTacToe_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/TicTacToe_Prefix.pch
+END
+wood_button.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/wood_button.png
+END
+X.png
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/X.png
+END
+board.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/board.png
+END
+gc_bg_1piece.png
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/gc_bg_1piece.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/icon.png
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/MainWindow.xib
+END
+button.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/19/trunk/src/TicTacToeNew/button.png
+END

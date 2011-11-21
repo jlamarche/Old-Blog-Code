@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TableCellTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 632}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRange = "{0, 479}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TableCellTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 468}}";
+			sepNavSelRange = "{245, 0}";
+			sepNavVisRange = "{146, 443}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TableCellTest */ = {
+		activeExec = 0;
+		executables = (
+			1F4490B3118130B100A8F0EC /* TableCellTest */,
+		);
+	};
+	1F4490B3118130B100A8F0EC /* TableCellTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TableCellTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F4490C4118130B200A8F0EC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F4490C5118130B200A8F0EC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F4490C61181313300A8F0EC /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 632}}";
+			sepNavSelRange = "{184, 0}";
+			sepNavVisRange = "{0, 333}";
+		};
+	};
+	1F4490C71181313300A8F0EC /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 650}}";
+			sepNavSelRange = "{757, 0}";
+			sepNavVisRange = "{481, 635}";
+		};
+	};
+	1F4490CA1181328500A8F0EC /* TestCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 632}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	1F4490CB1181328500A8F0EC /* TestCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 632}}";
+			sepNavSelRange = "{232, 156}";
+			sepNavVisRange = "{0, 492}";
+		};
+	};
+	1F4490CD1181329B00A8F0EC /* ConstantsAndMacros.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 632}}";
+			sepNavSelRange = "{156, 0}";
+			sepNavVisRange = "{0, 156}";
+		};
+	};
+	1F4490CE118132FD00A8F0EC /* TestCell.xib */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 6539}}";
+			sepNavSelRange = "{580, 0}";
+			sepNavVisRange = "{0, 825}";
+			sepNavWindowFrame = "{{15, 46}, {1646, 1127}}";
+		};
+	};
+	1F4491101181389900A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490CA1181328500A8F0EC /* TestCell.h */;
+		name = "TestCell.h: 18";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	1F44911A11813A9A00A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490C61181313300A8F0EC /* RootViewController.h */;
+		name = "RootViewController.h: 10";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 0;
+	};
+	1F44913B11813C2100A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TableCellTestAppDelegate.h */;
+		name = "TableCellTestAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	1F44914311813C3400A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TableCellTestAppDelegate.m */;
+		name = "TableCellTestAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 245;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 0;
+	};
+	1F44915311813CAC00A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490CE118132FD00A8F0EC /* TestCell.xib */;
+		name = "TestCell.xib: 26";
+		rLen = 0;
+		rLoc = 1229;
+		rType = 0;
+		vrLen = 2298;
+		vrLoc = 0;
+	};
+	1F44917111813D0900A8F0EC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TableCellTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jeff/Desktop/TableCellTest/TableCellTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	1F44917A118141A000A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490CD1181329B00A8F0EC /* ConstantsAndMacros.h */;
+		name = "ConstantsAndMacros.h: 4";
+		rLen = 0;
+		rLoc = 156;
+		rType = 0;
+		vrLen = 156;
+		vrLoc = 0;
+	};
+	1F44917B118141A000A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TableCellTest_Prefix.pch */;
+		name = "TableCellTest_Prefix.pch: 1";
+		rLen = 230;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 230;
+		vrLoc = 0;
+	};
+	1F44917C118141A000A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490CB1181328500A8F0EC /* TestCell.m */;
+		name = "TestCell.m: 15";
+		rLen = 156;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	1F44917D118141A000A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490C71181313300A8F0EC /* RootViewController.m */;
+		name = "RootViewController.m: 35";
+		rLen = 0;
+		rLoc = 757;
+		rType = 0;
+		vrLen = 1123;
+		vrLoc = 0;
+	};
+	1F44917E118141A000A8F0EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4490C71181313300A8F0EC /* RootViewController.m */;
+		name = "RootViewController.m: 30";
+		rLen = 518;
+		rLoc = 481;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 3;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F4490B3118130B100A8F0EC /* TableCellTest */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TableCellTest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TableCellTest */,
+		);
+		codeSenseManager = 1F4490C5118130B200A8F0EC /* Code sense */;
+		executables = (
+			1F4490B3118130B100A8F0EC /* TableCellTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					693,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293679281;
+			PBXWorkspaceStateSaveDate = 293679281;
+		};
+		perUserProjectItems = {
+			1F4491101181389900A8F0EC /* PBXTextBookmark */ = 1F4491101181389900A8F0EC /* PBXTextBookmark */;
+			1F44911A11813A9A00A8F0EC /* PBXTextBookmark */ = 1F44911A11813A9A00A8F0EC /* PBXTextBookmark */;
+			1F44913B11813C2100A8F0EC /* PBXTextBookmark */ = 1F44913B11813C2100A8F0EC /* PBXTextBookmark */;
+			1F44914311813C3400A8F0EC /* PBXTextBookmark */ = 1F44914311813C3400A8F0EC /* PBXTextBookmark */;
+			1F44915311813CAC00A8F0EC /* PBXTextBookmark */ = 1F44915311813CAC00A8F0EC /* PBXTextBookmark */;
+			1F44917111813D0900A8F0EC /* PlistBookmark */ = 1F44917111813D0900A8F0EC /* PlistBookmark */;
+			1F44917A118141A000A8F0EC /* PBXTextBookmark */ = 1F44917A118141A000A8F0EC /* PBXTextBookmark */;
+			1F44917B118141A000A8F0EC /* PBXTextBookmark */ = 1F44917B118141A000A8F0EC /* PBXTextBookmark */;
+			1F44917C118141A000A8F0EC /* PBXTextBookmark */ = 1F44917C118141A000A8F0EC /* PBXTextBookmark */;
+			1F44917D118141A000A8F0EC /* PBXTextBookmark */ = 1F44917D118141A000A8F0EC /* PBXTextBookmark */;
+			1F44917E118141A000A8F0EC /* PBXTextBookmark */ = 1F44917E118141A000A8F0EC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F4490C4118130B200A8F0EC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TableCellTest_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {871, 632}}";
+			sepNavSelRange = "{0, 230}";
+			sepNavVisRange = "{0, 230}";
+		};
+	};
+}

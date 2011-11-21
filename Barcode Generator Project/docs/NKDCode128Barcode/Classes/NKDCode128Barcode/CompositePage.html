@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDCode128Barcode</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDCode128Barcode</font></h1><hr><br>
+<h2>Abstract</h2>
+Concrete subclass for creating CODE-128 barcodes.
+ <hr><br><h2>Methods</h2>
+
+<h3><a name="_bestCodeSetForContent">_bestCodeSetForContent</a></h3>
+<b>Abstract:</b> Method provides a common algorithm for determining the best primary code set for <i>content</i>
+
+<blockquote><pre><tt>- (CodeSet)<B>_bestCodeSetForContent;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> SET_A, SET_B, SET_C, whichever was determined to be the best choice based on the data in <i>content</i>
+ 
+<hr>
+
+<h3><a name="_canEncodeChar:withSet:">_canEncodeChar:withSet:</a></h3>
+<b>Abstract:</b> Tells us whether a particular code set can encode a given character
+
+<blockquote><pre><tt>- (BOOL)<B>_canEncodeChar:</B>(char)<I>inChar</I> <B>withSet:</B>(CodeSet)<I>theSet;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inChar</tt></td><td>Character that we want to know whether it can be encoded</td></tr>
+<tr><td align="center"><tt>theSet</tt></td><td>The code set we want to try and encode it with</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> YES or NO, depending on whether theSet can encode inChar
+ 
+<hr>
+
+<h3><a name="_encodeChar">_encodeChar</a></h3>
+<b>Abstract:</b> Private method to turn a single character into a string of 1s and 0s.
+
+<blockquote><pre><tt>- (NSString *)<B>_encodeChar:</B>(char)<I>inChar;</I> </tt><br>
+</pre></blockquote>
+<p>This method is overridden to make sure the current
+</p>
+<b>Result:</b> String of 0s and 1s representing inChar encoded for this barcode.
+
+<hr>
+
+<h3><a name="_encodeChar:">_encodeChar:</a></h3>
+<b>Abstract:</b> Called by _encodeChar once the character set to use has been determined.
+
+<blockquote><pre><tt>- (NSString *)<B>_encodeChar:</B>(char)<I>inChar</I> <B>withSet:</B>(CodeSet)<I>inSet;</I> </tt><br>
+</pre></blockquote>
+<p>withSet:
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inChar</tt></td><td>The character to be encoded.</td></tr>
+<tr><td align="center"><tt>inSet</tt></td><td>The CodeSet to use to encode it.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> String of 0s and 1s representing the character encoded using inSet.
+ 
+<hr>
+
+<h3><a name="_encodeNumberPair:">_encodeNumberPair:</a></h3>
+<b>Abstract:</b> Encodes a two-digit numeric value as a code-set C Code 128 value.
+
+<blockquote><pre><tt>- (NSString *)<B>_encodeNumberPair:</B>(NSString *)<I>inPair;</I> </tt><br>
+</pre></blockquote>
+<p>Two digit numeric values when encoding using code set C coincide with the character "value" according to Code 128,
+so this method is much more useful than for just encoding for set-C, it also gives us a shortcut when calculating
+the check-digit and when trying to encode it.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inPair</tt></td><td>String with length of two that holds the string representation of the two-digit number to be encoded.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> String of 0s and 1s representing the number pair.
+ 
+<hr>
+
+<h3><a name="_shiftCharacterForSet:(CodeSet)inSet">_shiftCharacterForSet:(CodeSet)inSet</a></h3>
+<b>Abstract:</b> Returns the shift character for a given set
+
+<blockquote><pre><tt>- (NSString *)<B>_shiftCharacterForSet:</B>(CodeSet)<I>inSet;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inSet</tt></td><td>The CodeSet that we wish the shift character for.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> A String of 1s and 0s that contains the encoded shift character.
+ 
+<hr>
+
+<h3><a name="_valueForChar:">_valueForChar:</a></h3>
+<b>Abstract:</b> Returns the code-128 value for a given character
+
+<blockquote><pre><tt>- (int)<B>_valueForChar:</B>(char)<I>inChar;</I> </tt><br>
+</pre></blockquote>
+<p>Used for calculating checksum for code sets A and B, where the numeric code-128 "value" is arbitrary
+</p>
+<b>Result:</b> Integer between 00 and 105
+ 
+<hr>
+
+<h3><a name="barcode:">barcode:</a></h3>
+<b>Abstract:</b> Overridden to process sets of two characters when using SET_C as primary set, since it packs two characters into one
+
+<blockquote><pre><tt>- (NSString *)<B>barcode;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String of 0s and 1s representing the content.
+
+<hr>
+
+<h3><a name="codeSet">codeSet</a></h3>
+<b>Abstract:</b> Returns the primary code set being used to encode content
+
+<blockquote><pre><tt>- (CodeSet)<B>codeSet;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> SET_A, SET_B, or SET_C
+ 
+<hr>
+
+<h3><a name="generateChecksum">generateChecksum</a></h3>
+<b>Abstract:</b> Generates the check digit or checksum for this barcode encoding scheme.
+
+<blockquote><pre><tt>- (void)<B>generateChecksum;</B> </tt><br>
+</pre></blockquote>
+<p>Code 128 has a mandatory check digit calculated by summing the start code
+value to the product of each character's value (via lookup table), modulus 103.
+</p>
+<hr>
+
+<h3><a name="initWithContent:printsCaption:">initWithContent:printsCaption:</a></h3>
+<b>Abstract:</b> Overridden to enforce generation of check digit.
+ 
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString *)inContent
+      <I></I> <B>printsCaption:</B>(BOOL)<I>inPrints;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<hr>
+
+<h3><a name="initiator">initiator</a></h3>
+<b>Abstract:</b> Returns the encoded initiator or alignment bar(s)
+
+<blockquote><pre><tt>- (NSString *)<B>initiator;</B> </tt><br>
+</pre></blockquote>
+<p>This is likely the most complex initator method in the framework. Because there are three code sets to
+choose from, we have to determine which one is the best choice for our content. Our algorithm will be
+to check first to see if there are only numbers, then we use set C. If there are other characters, we
+will sum the number of lower-case letters and the number of non-printing ASCII characters. If there are
+more lowercase letters than non-printings, we will use set B, otherwise, we will use set C.
+</p>
+<hr>
+
+<h3><a name="setCodeSet:">setCodeSet:</a></h3>
+<b>Abstract:</b> Set the primary code set to encode content with
+
+<blockquote><pre><tt>- (void)<B>setCodeSet:</B>(CodeSet)<I>inSet;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inSet</tt></td><td>SET_A, SET_B, or SET_C</td></tr>
+</table>
+</blockquote>
+<hr>
+
+<h3><a name="terminator">terminator</a></h3>
+<b>Abstract:</b> Returns the encoded terminator or alignment bar(s)
+
+<blockquote><pre><tt>- (NSString *)<B>terminator;</B> </tt><br>
+</pre></blockquote>
+<p>Returns  1100011101011
+</p>
+<b>Result:</b> String of 0s and 1s representing the last (non-content) character or alignment bar(s).
+
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

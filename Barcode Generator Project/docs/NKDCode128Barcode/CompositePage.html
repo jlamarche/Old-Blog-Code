@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDCode128Barcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDCode128Barcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This concrete subclass of NKDBarcode handles one of the more complex encoding schemes - Code 128, which is
+capable of encoding the entire ASCII-7 character set. It uses three "code sets" which can be switched
+between by using control characters.
+<br><br>
+Code A allows the encoding of upper-case alphanumeric characters and non-printing characters such as ACK, and ESC,
+Code B has upper and lower case alphanumerics, and Code C is encodes numeric data packed in two digits per character,
+making Code 128 a very useful barcode because it both offers a complete character set AND offers a very compact encoding
+scheme, especially for numeric data.
+ <hr><br><h2>Typedefs</h2>
+
+<h3><a name="CodeSet">CodeSet</a></h3>
+<blockquote><pre>
+typedef int CodeSet;
+</pre>
+</blockquote>
+<p>Defines a type of CodeSet (as an Int) to make methods that take one of the precompiler defined set values
+more readable.
+ </p>
+<hr>
+<h2>#defines</h2>
+<h3><a name="SET_A">SET_A</a></h3>
+<blockquote><pre>
+#define SET_A 0
+</pre>
+</blockquote>
+<p>Used to designate that we are using Code Set A, shifting to B or C if necessary
+ </p>
+<hr>
+<h3><a name="SET_B">SET_B</a></h3>
+<blockquote><pre>
+#define SET_B 1
+</pre>
+</blockquote>
+<p>Used to designate that we are using Code Set B, shifting to A or C if necessary
+ </p>
+<hr>
+<h3><a name="SET_C">SET_C</a></h3>
+<blockquote><pre>
+#define SET_C 2
+</pre>
+</blockquote>
+<p>Used to designate that we are using Code Set A. With our current algorithm, we won't be shifting to
+A or B, but at some point, our initiator routine should look for situations where most (but not all)
+of the characters are numbers and Set C with shifting to one of the other sets still results in a shorter
+encoding, however this will involve more than just changing the algorithm to determine the primary set, since
+SET_C processes two charactes at a time and this framework is primarily focused on the individual encoding of
+characters. That behavior is not immutable - it is overridden in the Interleaved Two of Five class, but overriding
+this behavior for part, but not all, of <i>content</i> presents several challenges.
+ </p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

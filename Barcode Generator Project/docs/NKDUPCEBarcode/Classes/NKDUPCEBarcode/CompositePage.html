@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDUPCEBarcode</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDUPCEBarcode</font></h1><hr><br>
+<h2>Abstract</h2>
+UPC-E abbreviated UPC symbology
+<h2>Discussion</h2>
+This subclass can take one of three possible values - the actual UPC-E barcode (8 digits) value or the
+UPC-A barcode, either with or without the check digit. Either way, the code will print out as a UPC-E
+barcode. If the content value provided at time of instantiation is an actual UPC-E value, the check-
+digit MUST be encoded because UPC-E values do not contain enough information to accurately calculate the
+check-digit.
+ <hr><br><h2>Methods</h2>
+
+<h3><a name="UPCAToUPCE">UPCAToUPCE</a></h3>
+<b>Abstract:</b> Takes an NSString with a valid 12-digit UPC-A value and abbreviates it (if possible) to UPC-E's 8 digit encoding
+
+<blockquote><pre><tt>- (NSString *)<B>UPCAToUPCE:</B>(NSString *)<I>UPCA;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>UPCA</tt></td><td>NSString with valid UPC-A content</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> NSString with calculated UPC-E value, or empty string if not possible to truncate.
+ 
+<hr>
+
+<h3><a name="barBottom:">barBottom:</a></h3>
+<b>Abstract:</b> [TO COME]
+
+<blockquote><pre><tt>- (float)<B>barBottom:</B>(int)<I>index;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>index</tt></td><td>The index of the bar that you want to find the bottom for (assuming origin at lower left) as an index of
+completeBarcode</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Bottom of the bar specified in inches * kScreenResolution
+
+<hr>
+
+<h3><a name="barcode">barcode</a></h3>
+<b>Abstract:</b> Overridden [TO COME]
+
+<blockquote><pre><tt>- (NSString *)<B>barcode;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String of 0s and 1s that represent the encoded content, excluding initiator and terminator
+
+<hr>
+
+<h3><a name="caption">caption</a></h3>
+<b>Abstract:</b> Overridden to center characters
+
+<blockquote><pre><tt>- (NSString *)<B>caption;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String representing the encoded characters, formatted to appear correctly when drawn
+
+<hr>
+
+<h3><a name="initWithContent:printsCaption">initWithContent:printsCaption</a></h3>
+<b>Abstract:</b> Overrides super. If UPC-A information passed, super is called and then the value is truncated according to the
+specs. If UPC-E data is provided, content is just stored and we trust the the data is correct.
+
+<blockquote><pre><tt>- (id)<B>initWithContent:</B>(NSString *)inContent
+      <I></I> <B>printsCaption:</B>(BOOL)<I>inPrints;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inPrints</tt></td><td>YES if caption should print.</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Initialized UPC-E barcode object
+ 
+<hr>
+
+<h3><a name="isContentValid">isContentValid</a></h3>
+<b>Abstract:</b> Validates that this barcode supports the data it is encoding.
+
+<blockquote><pre><tt>- (BOOL)<B>isContentValid;</B> </tt><br>
+</pre></blockquote>
+<p>Enforces numerics only and length of content; does not validate check digit.
+</p>
+<hr>
+
+<h3><a name="parityForDigit:">parityForDigit:</a></h3>
+<b>Abstract:</b> returns ODD_PARITY or EVEN_PARITY signalling the correct parity in light of the check digit and number system
+
+<blockquote><pre><tt>- (Parity)<B>parityForDigit:</B>(int)<I>index;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>index</tt></td><td>Which digit (2-7) we're asking about</td></tr>
+</table>
+</blockquote>
+<b>Result:</b> Parity value of ODD_PARITY or EVEN_PARITY
+ 
+<hr>
+
+<h3><a name="terminator">terminator</a></h3>
+<b>Abstract:</b> Overrides to combine center guard bars and right guard bar into a single value
+
+<blockquote><pre><tt>- (NSString *)<B>terminator;</B> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> "010101" 
+
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

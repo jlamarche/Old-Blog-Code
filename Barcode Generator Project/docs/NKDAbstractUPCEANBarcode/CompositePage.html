@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDAbstractUPCEANBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDAbstractUPCEANBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+This is an abstract object to encapsulate the functionality that the various UPC and EAN barcodes have in common,
+including parity-swapping and digit encoding.
+ <hr><br><h2>Typedefs</h2>
+
+<h3><a name="Handedness">Handedness</a></h3>
+<blockquote><pre>
+typedef BOOL Handedness;
+</pre>
+</blockquote>
+<p>Defiens a type of Handedness (as a BOOL) to deal with the difference between left and right handed encoding schemes
+ </p>
+<hr>
+
+<h3><a name="Parity">Parity</a></h3>
+<blockquote><pre>
+typedef BOOL Parity;
+</pre>
+</blockquote>
+<p>Defines a type of "Parity" (as a BOOL) to make methods that take one of the precompiler defined parity values
+more readable.
+ </p>
+<hr>
+<h2>#defines</h2>
+<h3><a name="EVEN_PARITY">EVEN_PARITY</a></h3>
+<blockquote><pre>
+#define EVEN_PARITY YES
+</pre>
+</blockquote>
+<p>UPC / EAN codes use parity swapping to increase the number of values that can be encoded. This
+defines EVEN_PARITY as YES to make the code more readable.
+ </p>
+<hr>
+<h3><a name="LEFT_HANDEDNESS
+ ">LEFT_HANDEDNESS
+ </a></h3>
+<blockquote><pre>
+#define LEFT_HANDEDNESS
+</pre>
+</blockquote>
+<p></p>
+<hr>
+<h3><a name="ODD_PARITY">ODD_PARITY</a></h3>
+<blockquote><pre>
+#define ODD_PARITY NO
+</pre>
+</blockquote>
+<p>UPC / EAN codes use parity swapping to increase the number of values that can be encoded. This
+defines ODD_PARITY as NO to make the code more readable.
+ </p>
+<hr>
+<h3><a name="RIGHT_HANDEDNESS
+ ">RIGHT_HANDEDNESS
+ </a></h3>
+<blockquote><pre>
+#define RIGHT_HANDEDNESS
+</pre>
+</blockquote>
+<p></p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

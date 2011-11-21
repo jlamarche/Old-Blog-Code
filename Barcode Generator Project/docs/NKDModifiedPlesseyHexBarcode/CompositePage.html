@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDModifiedPlesseyHexBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDModifiedPlesseyHexBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+<br><br>
+This is an extension of the Plessey code. The Plessey specification sets out the encoding scheme for
+numeric data, but leaves the other bar combinations open. This is the most common use of the open
+combinations - to encode the letters A through F, allowing the use of Hex notation to represent 0-255
+in a two character combination.
+<br><br>
+<CENTER><HR>
+THIS IS NOT GUARANTEED TO PRODUCE A BARCODE THAT IS IN COMPLIANCE WITH THE SPECIFICATION.<BR>
+== USE AT YOUR OWN RISK ==
+<HR></CENTER>
+<br><br>
+ <hr><br><h2>Methods</h2>
+
+<h3><a name="_encodeChar:">_encodeChar:</a></h3>
+<b>Abstract:</b> Extends character set by encoding alphabetical characters 'A' through 'F', otherwise, passes the
+value up to its superclass, NKDModifiedPlesseyBarcode
+
+<blockquote><pre><tt>- (NSString *)<B>_encodeChar:</B>(char)<I>inChar;</I> </tt><br>
+</pre></blockquote>
+<p></p>
+<b>Result:</b> String of 0s and 1s representing encoded data
+ 
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

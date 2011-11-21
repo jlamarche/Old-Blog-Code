@@ -1,0 +1,194 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* OneInfiniteLoopAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 686}}";
+			sepNavSelRange = "{452, 0}";
+			sepNavVisRange = "{0, 454}";
+		};
+	};
+	1D3623250D0F684500981E51 /* OneInfiniteLoopAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 987}}";
+			sepNavSelRange = "{747, 90}";
+			sepNavVisRange = "{269, 576}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* OneInfiniteLoop */ = {
+		activeExec = 0;
+		executables = (
+			1F05F694103479B2006F903D /* OneInfiniteLoop */,
+		);
+	};
+	1F05F694103479B2006F903D /* OneInfiniteLoop */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OneInfiniteLoop;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F05F6A1103479CC006F903D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F05F6A2103479CC006F903D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F05F6C210347D90006F903D /* InfiniteViewController.h:14 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286DF0D94DF7D0034E888 /* InfiniteViewController.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 14;
+		modificationTime = 271875472.806636;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	1FF2A9981121F872001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* InfiniteViewController.h */;
+		name = "InfiniteViewController.h: 13";
+		rLen = 0;
+		rLoc = 309;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 0;
+	};
+	1FF2A9991121F872001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* OneInfiniteLoopAppDelegate.h */;
+		name = "OneInfiniteLoopAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	1FF2A99A1121F872001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* OneInfiniteLoopAppDelegate.m */;
+		name = "OneInfiniteLoopAppDelegate.m: 38";
+		rLen = 90;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 269;
+	};
+	1FF2A99B1121F872001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* InfiniteViewController.m */;
+		name = "InfiniteViewController.m: 13";
+		rLen = 0;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 141;
+	};
+	1FF2A99C1121F872001D55D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* InfiniteViewController.m */;
+		name = "InfiniteViewController.m: 18";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 141;
+	};
+	28C286DF0D94DF7D0034E888 /* InfiniteViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 686}}";
+			sepNavSelRange = "{309, 0}";
+			sepNavVisRange = "{0, 333}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* InfiniteViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1428}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRange = "{178, 280}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F05F694103479B2006F903D /* OneInfiniteLoop */;
+		activeSDKPreference = iphonesimulator3.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* OneInfiniteLoop */;
+		breakpoints = (
+			1F05F6C210347D90006F903D /* InfiniteViewController.h:14 */,
+		);
+		codeSenseManager = 1F05F6A2103479CC006F903D /* Code sense */;
+		executables = (
+			1F05F694103479B2006F903D /* OneInfiniteLoop */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287438465;
+			PBXWorkspaceStateSaveDate = 287438465;
+		};
+		perUserProjectItems = {
+			1FF2A9981121F872001D55D3 /* PBXTextBookmark */ = 1FF2A9981121F872001D55D3 /* PBXTextBookmark */;
+			1FF2A9991121F872001D55D3 /* PBXTextBookmark */ = 1FF2A9991121F872001D55D3 /* PBXTextBookmark */;
+			1FF2A99A1121F872001D55D3 /* PBXTextBookmark */ = 1FF2A99A1121F872001D55D3 /* PBXTextBookmark */;
+			1FF2A99B1121F872001D55D3 /* PBXTextBookmark */ = 1FF2A99B1121F872001D55D3 /* PBXTextBookmark */;
+			1FF2A99C1121F872001D55D3 /* PBXTextBookmark */ = 1FF2A99C1121F872001D55D3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F05F6A1103479CC006F903D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

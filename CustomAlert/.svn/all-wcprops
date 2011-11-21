@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/18/trunk/src/CustomAlert
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/18/trunk/src/CustomAlert/main.m
+END
+CustomAlertViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/18/trunk/src/CustomAlert/CustomAlertViewController.xib
+END
+CustomAlert-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20/trunk/src/CustomAlert/CustomAlert-Info.plist
+END
+CustomAlert_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18/trunk/src/CustomAlert/CustomAlert_Prefix.pch
+END
+alert.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/18/trunk/src/CustomAlert/alert.png
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18/trunk/src/CustomAlert/MainWindow.xib
+END

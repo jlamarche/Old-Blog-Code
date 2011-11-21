@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/22/trunk/src/IrregularButton
+END
+TestViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/22/trunk/src/IrregularButton/TestViewController.xib
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/22/trunk/src/IrregularButton/main.m
+END
+Test-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/22/trunk/src/IrregularButton/Test-Info.plist
+END
+Test_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/22/trunk/src/IrregularButton/Test_Prefix.pch
+END
+blue_diamond.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/22/trunk/src/IrregularButton/blue_diamond.png
+END
+red_diamond.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/22/trunk/src/IrregularButton/red_diamond.png
+END
+yellow_diamond.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/22/trunk/src/IrregularButton/yellow_diamond.png
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/22/trunk/src/IrregularButton/MainWindow.xib
+END
+green_diamond.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/22/trunk/src/IrregularButton/green_diamond.png
+END

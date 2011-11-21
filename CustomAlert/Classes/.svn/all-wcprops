@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/18/trunk/src/CustomAlert/Classes
+END
+CustomAlertAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/src/CustomAlert/Classes/CustomAlertAppDelegate.h
+END
+CustomAlertViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/20/trunk/src/CustomAlert/Classes/CustomAlertViewController.h
+END
+CustomAlertAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/src/CustomAlert/Classes/CustomAlertAppDelegate.m
+END
+CustomAlertViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/21/trunk/src/CustomAlert/Classes/CustomAlertViewController.m
+END

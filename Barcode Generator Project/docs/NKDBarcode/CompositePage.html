@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NKDBarcode.h</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">NKDBarcode.h</font></h1><hr><br>
+<h2>Discussion</h2>
+NKDBarcode is a quasi-abstract class that contains state and actions common to generating many
+different types of barcodes. It encapsulates much of the common behavior of the concrete subclasses that
+implement varoius one dimensional (linear) barcodes. Subclasses will respond to a barcode message by
+returning an NSString of 1s and 0s, assuming that a value of '1' represents a bar of the narrowest size needed
+by this encoding scheme, and that '0' represents a gap of the same size.
+<br><br>
+If a subclass modifies this behavior, it should be well documented, and NKDBarcodeOffscreenView will possibly
+have to be modified to accommodate the change.
+<br><br>
+Although most barcode specifications allow narrow bar widths as small as 7.5 mils, I am using a default
+size of 13 mils for all barcodes that don't have strict bar-width requirements in their specification (e.g. PostNet)
+because this is an acceptable bar width for most barcodes and many inkjet and laser printers have insufficient resolution 
+to produce a readable code on plain paper at bar widths smaller than this size.
+<br><br>
+The framework currently contains subclasses for Code 3 of 9, Extended Code 3 of 9, Interleaved Code
+2 of 5, Modified Plessey and Modified Plessey Hex (not compliant with specs, untested), PostNet,
+UPC-A, Code 128, Industrial 2 of 5, and EAN-13, Codabar, EAN-8 and UPC-E. In some cases, I do not have the complete
+or official specifications. I also, unfortunately, do not have equipment to test some types of barcode, so I welcome
+any help debugging, testing, and validating the encoding schemes of the provided subclasses. No guarantee is made concerning
+the creation of readable code for any given hardware - I've done the best job that I could armed only with my PowerBook,
+a Cue Cat and the specifications I could find.
+<br><br>
+If you have complete specifications or information about any dimensional linear barcodes or (for that matter) and other feedback,
+please send it to me at <code>jeff_lamarche&#064;mac.com</code> and I will try to respond. Support for 2-dimensional (matrix)
+barcodes is not currently planned as part of this framework, but if there's an interest, I'll consider adding it. 
+<hr><br><h2>#defines</h2>
+<h3><a name="kScreenResolution">kScreenResolution</a></h3>
+<blockquote><pre>
+#define kScreenResolution 72.00
+</pre>
+</blockquote>
+<p>This value is used to determine the drawing location of various bars. Though many
+devices have different resolution, drawing in Cocoa seems to based on 72 pixels per inch
+ </p>
+<hr>
+<p>(Last Updated 4/21/2003)
+</p></body></html>

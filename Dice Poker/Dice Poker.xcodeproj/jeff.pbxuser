@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Dice_PokerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {878, 462}}";
+			sepNavSelRange = "{444, 0}";
+			sepNavVisRange = "{0, 517}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Dice_PokerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1225, 1010}}";
+			sepNavSelRange = "{816, 0}";
+			sepNavVisRange = "{0, 816}";
+			sepNavWindowFrame = "{{352, 55}, {1284, 1123}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Dice Poker */ = {
+		activeExec = 0;
+		executables = (
+			1FD475280E4C933A003741A4 /* Dice Poker */,
+		);
+	};
+	1F9F96000E4CD96E0027B86F /* Dice Poker.strings */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {878, 127}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	1F9F967C0E4CE1C30027B86F /* GameViewController.m:132 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1FD4754A0E4C9600003741A4 /* GameViewController.m */;
+		functionName = "-numberOfDifferentValues";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 132;
+		modificationTime = 239941524.35473;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	1F9F968E0E4CE4040027B86F /* GameViewController.m:102 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1FD4754A0E4C9600003741A4 /* GameViewController.m */;
+		functionName = "-roll";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 102;
+		modificationTime = 239941524.354793;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	1FD475280E4C933A003741A4 /* Dice Poker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Dice Poker";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1FD475320E4C933E003741A4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1FD475330E4C933E003741A4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1FD475490E4C9600003741A4 /* GameViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1650, 1162}}";
+			sepNavSelRange = "{1602, 0}";
+			sepNavVisRange = "{297, 1713}";
+		};
+	};
+	1FD4754A0E4C9600003741A4 /* GameViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1424, 3458}}";
+			sepNavSelRange = "{1119, 56}";
+			sepNavVisRange = "{337, 1538}";
+		};
+	};
+	1FD4754C0E4C9619003741A4 /* HighScoreViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1650, 883}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
+	1FD4754D0E4C9619003741A4 /* HighScoreViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {878, 676}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{150, 894}";
+		};
+	};
+	1FD4D97610680CE800194D64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F9F96000E4CD96E0027B86F /* Dice Poker.strings */;
+		name = "Dice Poker.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	1FD4D98810680D1B00194D64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FD4754D0E4C9619003741A4 /* HighScoreViewController.m */;
+		name = "HighScoreViewController.m: 9";
+		rLen = 0;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 150;
+	};
+	1FD4D98910680D1B00194D64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Dice_PokerAppDelegate.h */;
+		name = "Dice_PokerAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 517;
+		vrLoc = 0;
+	};
+	1FD4D98A10680D1B00194D64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Dice_PokerAppDelegate.h */;
+		name = "Dice_PokerAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 517;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1FD475280E4C933A003741A4 /* Dice Poker */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Dice Poker */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Dice Poker */,
+		);
+		breakpoints = (
+			1F9F967C0E4CE1C30027B86F /* GameViewController.m:132 */,
+			1F9F968E0E4CE4040027B86F /* GameViewController.m:102 */,
+		);
+		codeSenseManager = 1FD475330E4C933E003741A4 /* Code sense */;
+		executables = (
+			1FD475280E4C933A003741A4 /* Dice Poker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					660,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275254451;
+			PBXWorkspaceStateSaveDate = 275254451;
+		};
+		perUserProjectItems = {
+			1FD4D97610680CE800194D64 /* PBXTextBookmark */ = 1FD4D97610680CE800194D64 /* PBXTextBookmark */;
+			1FD4D98810680D1B00194D64 /* PBXTextBookmark */ = 1FD4D98810680D1B00194D64 /* PBXTextBookmark */;
+			1FD4D98910680D1B00194D64 /* PBXTextBookmark */ = 1FD4D98910680D1B00194D64 /* PBXTextBookmark */;
+			1FD4D98A10680D1B00194D64 /* PBXTextBookmark */ = 1FD4D98A10680D1B00194D64 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1FD475320E4C933E003741A4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
